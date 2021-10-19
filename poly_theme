@@ -1,0 +1,6 @@
+body {
+    background: url("https://cdn.discordapp.com/attachments/894539155374223360/896741788591722526/SuperiumScreenshot-20210324-051202.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
