@@ -1,6 +1,52 @@
-body {
-    background: url("https://cdn.discordapp.com/attachments/894539155374223360/896741788591722526/SuperiumScreenshot-20210324-051202.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
+ head {
+	background-color: black;
+	border:none;
+	box-shadow:none;
 }
+a {
+	font-style: oblique;
+	color: black;
+	font-size: 12pt;
+}
+head {
+	color: black;
+}
+i {
+	color: black;
+}
+img {
+	color: black;
+}
+H1 {
+	font-style: oblique;
+}
+.P .card-body {
+	font-style: oblique;
+}
+body {
+	color:#F47FFF;
+	background:url("https://i.pinimg.com/originals/11/6a/f6/116af6865f202acf419061e4225a0ec9.gif");
+	background-position: center;
+}
+a {
+	color: black !important;
+}
+/*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
+ .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
+	background: url("https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif");
+	background-repeat: repeat-y;
+		}
+.navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
+	background: url("https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif");
+	background-repeat: repeat-x;
+}
+.navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
+	background: url("https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif");
+}
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/*---------------------------------------- BETA ----------------------------------------*/
