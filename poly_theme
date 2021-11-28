@@ -1,48 +1,77 @@
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
  head {
-	background-color: black;
-	border:none;
-	box-shadow:none;
+	background-color: red;
+	border:red;
+	box-shadow:red;
 }
 a {
 	font-style: oblique;
-	color: black;
-	font-size: 12pt;
+	color: red;
+}
+a {
+	color: red !important;
 }
 head {
-	color: black;
+	color: red;
 }
 i {
-	color: black;
+	color: red;
 }
 img {
-	color: black;
+	color: red;
 }
 H1 {
 	font-style: oblique;
 }
-.P .card-body {
+p {
 	font-style: oblique;
 }
-body {
-	color:#F47FFF;
-	background:url("https://i.pinimg.com/originals/11/6a/f6/116af6865f202acf419061e4225a0ec9.gif");
-	background-position: center;
+.poly-chat-toggler {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: black !important;
 }
-a {
-	color: black !important;
+body {
+	color: red;
+	background: black;
+	background-position: center;
+	max-width: 100%;
+}
+.th {
+	background-color: black !important;
+	border-color: red !important;
+}
+.card {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	border-color: red !important;
+	box-shadow: shadow !important;
+}
+.dropdown-menu {
+	background-color: black !important;
+	border-color: red;
+}
+.asset-owned {
+	border-color: purple !important;
+}
+.asset-limited {
+	border-color: black !important;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid red !important;
 }
 /*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
  .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
-	background: url("https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif");
+	background-color: black !important;
 	background-repeat: repeat-y;
-		}
+}
 .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
-	background: url("https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif");
-	background-repeat: repeat-x;
+	background-color: red !important;
+	background-repeat: repeat-x !important;
 }
 .navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
-	background: url("https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif");
+	background-color: black !important;
 }
 body {
 	background-attachment: fixed;
@@ -50,3 +79,5 @@ body {
 	background-size: cover;
 }
 /*---------------------------------------- BETA ----------------------------------------*/
+
+/*---https://i.pinimg.com/originals/11/6a/f6/116af6865f202acf419061e4225a0ec9.gif - just a rainbow gif
