@@ -1,0 +1,109 @@
+body {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #2a2e39 !important;
+}
+td {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	border-color: #1c1e24 !important;
+}
+.poly-chat-toggler {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #1c1e24 !important;
+}
+.nav-pills .nav-link {
+	color: white !important;
+}
+.poly-chat-container {
+	color: white !important;
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color : #24272e !important;
+}
+th {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #2a2e39 !important;
+	border-color: #1c1e24 !important;
+}
+.input-group-text {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+	border-color: #1c1e24 !important;
+}
+.btn-white {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+	border-color: #1c1e24 !important;
+}
+.active .page-link {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #0084ff !important;
+	border-color: #0070e8 !important;
+}
+.page-link {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+	border-color: #1c1e24 !important;
+}
+.custom-select {
+	border-color: #1c1e24 !important;
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+}
+.modal-header {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+	border-bottom-color: #1c1e24 !important;
+}
+.modal-footer {
+	border-color: #1c1e24;
+}
+.modal-content {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+	border: 1px solid #1c1e24 !important;
+}
+.card-header {
+	border-bottom-color: #1c1e24 !important;
+}
+.form-control {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+	border-color: #1c1e24 !important;
+	color: white !important;
+}
+.list-group-item, .border-top {
+	border-bottom-color: #1c1e24 !important;
+}
+.form-control-flush {
+	border: none !important
+}
+.navbar {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e;
+	border-color: #1c1e24 !important;
+}
+#sidebar {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+	box-shadow: none !important;
+	border-color: #1c1e24 !important;
+}
+.card {
+	
+	background-color: #24272e !important;
+	border-color: #1c1e24 !important;
+	box-shadow: none !important;
+}
+.asset-owned {
+	border-color: #2c7be5 !important;
+}
+.asset-limited {
+	border-color: #ffde1d !important;
+}
+.dropdown-menu {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	background-color: #24272e !important;
+	border-color: #1c1e24;
+}
+hr {
+	border-color: #1c1e24 !important;
+}
