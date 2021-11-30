@@ -23,12 +23,19 @@ img {
 H1 {
 	font-style: oblique;
 }
+
+
 p {
 	font-style: oblique;
 }
 .poly-chat-toggler {
-	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
+	border-color: red !important;
 	background-color: black !important;
+	box-shadow: red !important;
+}
+.poly-chat-container {
+	color: red !important;
+	background-color : black !important;
 }
 body {
 	color: red;
@@ -51,6 +58,10 @@ body {
 	background-color: black !important;
 	border-color: red;
 }
+.custom-select {
+	border-color: red !important;
+	background-color: black !important;
+}
 .asset-owned {
 	border-color: purple !important;
 }
@@ -61,17 +72,18 @@ body {
 	background-color: black !important;
 	border: 1px solid red !important;
 }
+
 /*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
  .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
 	background-color: black !important;
 	background-repeat: repeat-y;
 }
 .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
-	background-color: red !important;
+	background: black !important;
 	background-repeat: repeat-x !important;
 }
 .navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
-	background-color: black !important;
+	background: black !important;
 }
 body {
 	background-attachment: fixed;
