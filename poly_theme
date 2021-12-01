@@ -154,6 +154,24 @@ body {
 	background-position: center;
 	background-size: cover;
 }
+.dropdown-menu {
+	background-color: black !important;
+	border-color: red;
+}
+.custom-select {
+	border-color: red !important;
+	background-color: black !important;
+}
+.asset-owned {
+	border-color: purple !important;
+}
+.asset-limited {
+	border-color: black !important;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid red !important;
+}
 /*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
  .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
 	background-color: black !important;
@@ -173,25 +191,7 @@ body {
 }
 /*---------------------------------------- BETA ----------------------------------------*/
 
-.dropdown-menu {
-	background-color: black !important;
-	border-color: red;
-}
-.custom-select {
-	border-color: red !important;
-	background-color: black !important;
-}
-.asset-owned {
-	border-color: purple !important;
-}
-.asset-limited {
-	border-color: black !important;
-}
-.modal-content {
-	background-color: black !important;
-	border: 1px solid red !important;
-}
-.card {
+.card{
   color: red;
   animation: fadeIn linear 200ms;
   -webkit-animation: fadeIn linear 200ms;
@@ -199,8 +199,6 @@ body {
   -o-animation: fadeIn linear 200ms;
   -ms-animation: fadeIn linear 200ms;
 }
-
-
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -225,14 +223,38 @@ body {
   0% {opacity:0;}
   100% {opacity:1;}
 }
-.a {
+
+.img{
   color: red;
-  animation: smoke linear 800ms;
+  animation: fadeIn linear 800ms;
   -webkit-animation: fadeIn linear 800ms;
   -moz-animation: fadeIn linear 800ms;
   -o-animation: fadeIn linear 800ms;
   -ms-animation: fadeIn linear 800ms;
 }
-.card .is-inview span{
-animation: smoke 15s infinite;
+
+p {
+  animation-duration: 200ms;
+  animation-name: slideout;
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 50%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
