@@ -200,6 +200,7 @@ body {
   -ms-animation: fadeIn linear 200ms;
 }
 
+
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -223,4 +224,15 @@ body {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+.a {
+  color: red;
+  animation: smoke linear 800ms;
+  -webkit-animation: fadeIn linear 800ms;
+  -moz-animation: fadeIn linear 800ms;
+  -o-animation: fadeIn linear 800ms;
+  -ms-animation: fadeIn linear 800ms;
+}
+.card .is-inview span{
+animation: smoke 15s infinite;
 }
