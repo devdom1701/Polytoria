@@ -18,7 +18,7 @@ td {
 	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
 	background-color : #24272e !important;
 }
-th {
+.th {
 	background-image: url("https://media.discordapp.net/attachments/783039318410133516/912303658513891368/2100005041.png") !important;
 	background-color: #2a2e39 !important;
 	border-color: #1c1e24 !important;
