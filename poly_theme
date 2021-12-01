@@ -52,7 +52,7 @@ body {
 	max-height: 100%;
 	background-color: black;
 	border-color: red !important;
-	box-shadow: shadow !important;
+	box-shadow: 60px -16px teal;
 }
 .dropdown-menu {
 	background-color: black !important;
