@@ -6,10 +6,10 @@ This repository is mainly focused on themes for the sandbox called [Polytoria](h
 
 Here, Il showcase the latest or the most important things here.
 
-## [Main Project](https://github.com/devdom1701/Polytoria/blob/main/Polytoria%20CSS)
+### [Main Project](https://github.com/devdom1701/Polytoria/blob/main/Polytoria%20CSS)
 
 
-## [Secondary Project](https://github.com/devdom1701/Polytoria/blob/main/Polytoria%20CSS
+### [Secondary Project](https://github.com/devdom1701/Polytoria/blob/main/Polytoria%20CSS)
 
 
 CSS Examples:
