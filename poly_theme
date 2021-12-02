@@ -238,6 +238,25 @@ p {
   animation-name: slideout;
 }
 
+.h1 .h2 .h3 .h4{
+  color: red;
+  animation: fadeIn linear 800ms;
+  -webkit-animation: fadeIn linear 800ms;
+  -moz-animation: fadeIn linear 800ms;
+  -o-animation: fadeIn linear 800ms;
+  -ms-animation: fadeIn linear 800ms;
+}
+
+.img{
+  color: red;
+  animation: fadeIn linear 800ms;
+  -webkit-animation: slideout linear 800ms;
+  -moz-animation: slideout linear 800ms;
+  -o-animation: slideout linear 800ms;
+  -ms-animation: slideout linear 800ms;
+}
+
+
 @keyframes slideout {
   from {
     margin-left: 50%;
