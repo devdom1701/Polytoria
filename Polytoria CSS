@@ -3,10 +3,12 @@
 	background-color: red;
 	border:red;
 	box-shadow: 10px 5px 5px teal;
+	font-variant: small-caps;
 }
 a {
 	font-style: oblique;
 	color: red;
+	font-variant: small-caps;
 }
 a {
 	color: red !important;
@@ -21,14 +23,27 @@ i {
 img {
 	color: red;
 }
-H1 {
+H1{
 	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 900;
+}
+
+h3{font-variant: small-caps;
+}
+h5{font-variant: small-caps;
 }
 
 
 p {
 	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 900;
+	font-stretch: ultra-condensed	;
+
 }
+
+.text-muted{font-variant: small-caps !important;}
 .poly-chat-toggler {
 	border-color: red !important;
 	background-color: black !important;
