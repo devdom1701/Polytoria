@@ -137,18 +137,6 @@ body {
 	border: 1px solid red !important;
 }
 
-/*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
- .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
-	background-color: black !important;
-	background-repeat: repeat-y;
-}
-.navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
-	background: black !important;
-	background-repeat: repeat-x !important;
-}
-.navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
-	background: black !important;
-}
 body {
 	background-attachment: fixed;
 	background-position: center;
@@ -172,6 +160,73 @@ body {
 	background-color: black !important;
 	border: 1px solid red !important;
 }
+body {
+	background-color: black !important;
+}
+td {
+	background-color: black !important;
+	border: 1px solid red !important;
+
+}
+.poly-chat-toggler {
+	background-color: black !important;
+}
+.nav-pills .nav-link {
+	color: white !important;
+}
+.poly-chat-container {
+	color: red !important;
+}
+th {
+	background-color: black !important;
+	border-color: Red !important;
+}
+.input-group-text {
+	background-color: black;
+	border-color: red !important;
+}
+.btn-white {
+	background-color: black !important;
+	border-color: red !important;
+}
+.active .page-link {
+	background-color: black !important;
+	border-color: red !important;
+}
+.page-link {
+	background-color: black !important;
+	border-color: Red !important;
+}
+.custom-select {
+	border-color: black !important;
+	background-color: Red !important;
+}
+.modal-header {
+	background-color: black !important;
+	border-bottom-color: red !important;
+}
+.modal-footer {
+	border-color: red;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid red !important;
+}
+.card-header {
+	border-bottom-color: red !important;
+}
+.form-control {
+	background-color: black !important;
+	border-color: red !important;
+	color: white !important;
+}
+.list-group-item, .border-top {
+	border-bottom-color: red !important;
+}
+.form-control-flush {
+	border: none !important
+}
+
 /*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
  .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
 	background-color: black !important;
@@ -189,7 +244,7 @@ body {
 	background-position: center;
 	background-size: cover;
 }
-/*---------------------------------------- BETA ----------------------------------------*/
+/*---------------------------------------- ANIMATIONS ----------------------------------------*/
 
 .card{
   color: red;
