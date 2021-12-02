@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to Polytoria
 
-You can use the [editor on GitHub](https://github.com/devdom1701/Polytoria/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This repository is mainly focused on themes for the sandbox called [Polytoria](https://polytoria.com)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Main
 
-### Markdown
+Here, Il showcase the latest or the most important things here.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## [Main Project](https://github.com/devdom1701/Polytoria/blob/main/Polytoria%20CSS)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## [Secondary Project](https://github.com/devdom1701/Polytoria/blob/main/Polytoria%20CSS
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+CSS Examples:
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+head {
+	background-color: red;
+	border:red;
+	box-shadow: 10px 5px 5px teal;
+}
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![image](https://user-images.githubusercontent.com/84544217/144413168-bb61e030-0d87-43be-bce7-8d641375e4de.png)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devdom1701/Polytoria/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If you'd like to contact me, my discord user is 1ec#7941
