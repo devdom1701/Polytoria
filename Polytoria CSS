@@ -306,6 +306,7 @@ body {
 p {
   animation-duration: 200ms;
   animation-name: slideout;
+  font-family: Comic Sans MS ,serif;
 }
 
 .h1 .h2 .h3 .h4{
