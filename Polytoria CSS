@@ -41,8 +41,6 @@ img {
 card-body {
 	background-color: black;
 }
-.btn .btn-block .btn-primary .mb-4 {
-}
 H1 {
 	font-style: oblique;
 	font-variant: small-caps;
