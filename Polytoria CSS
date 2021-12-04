@@ -1,7 +1,15 @@
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
- head {
+.alert {
+	background-color: white !important;
+	color: black !important;
+}
+.fe-alert-circle {
+	color: black !important;
+	border-color: black;
+}
+head {
 	background-color: white;
-	border:white;
+	border-color:white;
 	box-shadow: 10px 5px 5px teal;
 	font-variant: small-caps;
 }
@@ -15,10 +23,10 @@ a {
 	background: black !important;
 	border-color: white !important;
 }
-div.alert .alert-primary .poly-alert {
+.alert .alert-primary .poly-alert {
 	color: white !important;
 	background: black !important;
-	border-color: white !important;
+	border-color: white;
 }
 head {
 	color: white;
@@ -338,9 +346,6 @@ p {
 	-moz-animation: fadeIn linear 800ms;
 	-o-animation: fadeIn linear 800ms;
 	-ms-animation: fadeIn linear 800ms;
-}
-.alert {
-	color: white !important;
 }
 img {
 	color: white;
