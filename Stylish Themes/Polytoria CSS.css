@@ -1,17 +1,32 @@
-/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
-.alert {
+/*---------------------------------------- BASIC FONT/TEXT COLORS --------------------------------------*/
+ .alert {
 	background-color: white !important;
 	color: black !important;
 }
 .fe-alert-circle {
-	color: black !important;
+	color: white !important;
 	border-color: black;
+}
+.poly-alert{
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
 }
 head {
 	background-color: white;
 	border-color:white;
 	box-shadow: 10px 5px 5px teal;
 	font-variant: small-caps;
+}
+.btn-primary{
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
+}
+.btn {
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
 }
 a {
 	font-style: oblique;
@@ -28,6 +43,12 @@ a {
 	background: black !important;
 	border-color: white;
 }
+.alert{
+	color: white !important;
+	background: black !important;
+	border-color: white;
+}
+
 head {
 	color: white;
 }
