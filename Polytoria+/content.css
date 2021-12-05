@@ -1,4 +1,4 @@
-/*---------------------------------------- BASIC FONT/TEXT COLORS --------------------------------------*/
+/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
  .alert {
 	background-color: white !important;
 	color: black !important;
@@ -373,22 +373,4 @@ img {
 	-moz-animation: fadeIn linear 200ms;
 	-o-animation: fadeIn linear 200ms;
 	-ms-animation: fadeIn linear 200ms;
-}
-@keyframes slideout {
-	from {
-		margin-left: 50%;
-		width: 300%;
-	}
-	to {
-		margin-left: 0%;
-		width: 100%;
-	}
-}
-@keyframes rotate {
-	0% {
-		transform: rotate(0);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
 }
