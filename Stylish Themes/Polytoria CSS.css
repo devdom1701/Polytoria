@@ -1,0 +1,376 @@
+/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
+ .alert {
+	background-color: white !important;
+	color: black !important;
+}
+.fe-alert-circle {
+	color: white !important;
+	border-color: black;
+}
+.poly-alert{
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
+}
+head {
+	background-color: white;
+	border-color:white;
+	box-shadow: 10px 5px 5px teal;
+	font-variant: small-caps;
+}
+.btn-primary{
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
+}
+.btn {
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
+}
+a {
+	font-style: oblique;
+	color: white;
+	font-variant: small-caps;
+}
+a {
+	color: white !important;
+	background: black !important;
+	border-color: white !important;
+}
+.alert .alert-primary .poly-alert {
+	color: white !important;
+	background: black !important;
+	border-color: white;
+}
+.alert{
+	color: white !important;
+	background: black !important;
+	border-color: white;
+}
+
+head {
+	color: white;
+}
+i {
+	color: white;
+	box-shadow: 1px 1px 10px #141414;
+}
+img {
+	color: white;
+}
+card-body {
+	background-color: black;
+}
+H1 {
+	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 900;
+}
+h3 {
+	font-variant: small-caps;
+}
+h5 {
+	font-variant: small-caps;
+}
+p {
+	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 900;
+	font-stretch: ultra-condensed;
+}
+.text-muted {
+	font-variant: small-caps !important;
+}
+.poly-chat-toggler {
+	border-color: white !important;
+	background-color: black !important;
+	box-shadow: white !important;
+}
+.poly-chat-container {
+	color: white !important;
+	background-color : black !important;
+}
+body {
+	color: white;
+	background: black;
+	background-position: center;
+	max-width: 100%;
+}
+.th {
+	background-color: black !important;
+	border-color: white !important;
+}
+.text-reset {
+	background-image: url("text-reset")
+}
+.card {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	border-color: white !important;
+}
+/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
+ head {
+	background-color: white;
+	border:white;
+}
+a {
+	font-style: oblique;
+	color: white;
+	font-weight: 1000;
+}
+head {
+	color: white;
+}
+i {
+	color: white;
+}
+img {
+	color: white;
+}
+H1 {
+	font-style: oblique;
+}
+p {
+	font-style: italic;
+}
+.poly-chat-toggler {
+	border-color: white !important;
+	background-color: black !important;
+	box-shadow: white !important;
+}
+.poly-chat-container {
+	color: white !important;
+	background-color : black !important;
+}
+body {
+	color: white;
+	background: black;
+	background-position: center;
+	max-width: 100%;
+}
+.th {
+	background-color: black !important;
+	border-color: white !important;
+}
+.text-reset {
+	background-image: url("text-reset")
+}
+.card {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	border-color: white !important;
+	box-shadow: shadow !important;
+}
+.dropdown-menu {
+	background-color: black !important;
+	border-color: white;
+}
+.custom-select {
+	border-color: white !important;
+	background-color: black !important;
+}
+.asset-owned {
+	border-color: purple !important;
+}
+.asset-limited {
+	border-color: black !important;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid white !important;
+}
+li {
+	color: white;
+}
+div {
+	color: white
+}
+a {
+	color:white;
+}
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.dropdown-menu {
+	background-color: black !important;
+	border-color: white;
+}
+.custom-select {
+	border-color: white !important;
+	background-color: black !important;
+}
+.asset-owned {
+	border-color: purple !important;
+}
+.asset-limited {
+	border-color: black !important;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid white !important;
+}
+body {
+	background-color: black !important;
+}
+td {
+	background-color: black !important;
+	border: 1px solid white !important;
+}
+.poly-chat-toggler {
+	background-color: black !important;
+}
+.nav-pills .nav-link {
+	color: white !important;
+}
+.poly-chat-container {
+	color: white !important;
+}
+th {
+	background-color: black !important;
+	border-color: white !important;
+}
+.input-group-text {
+	background-color: black;
+	border-color: white !important;
+}
+.btn-white {
+	background-color: black !important;
+	border-color: white !important;
+}
+.active .page-link {
+	background-color: black !important;
+	border-color: white !important;
+}
+.page-link {
+	background-color: black !important;
+	border-color: white !important;
+}
+.custom-select {
+	border-color: black !important;
+	background-color: white !important;
+}
+.modal-header {
+	background-color: black !important;
+	border-bottom-color: white !important;
+}
+.modal-footer {
+	border-color: white;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid white !important;
+}
+.card-header {
+	border-bottom-color: white !important;
+}
+.form-control {
+	background-color: black !important;
+	border-color: white !important;
+	color: white !important;
+}
+.list-group-item, .border-top {
+	border-bottom-color: white !important;
+}
+.form-control-flush {
+	border: none !important
+}
+/*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
+ .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
+	background-color: black !important;
+	background-repeat: repeat-y;
+}
+.navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
+	background: black !important;
+	background-repeat: repeat-x !important;
+}
+.navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
+	background: black !important;
+}
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/*---------------------------------------- ANIMATIONS ----------------------------------------*/
+ .card {
+	color: white;
+	animation: fadeIn linear 200ms;
+	-webkit-animation: fadeIn linear 200ms;
+	-moz-animation: fadeIn linear 200ms;
+	-o-animation: fadeIn linear 200ms;
+	-ms-animation: fadeIn linear 200ms;
+}
+@keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+@-moz-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+@-o-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+@-ms-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+.img {
+	color: white;
+	animation: fadeIn linear 800ms;
+	-webkit-animation: fadeIn linear 800ms;
+	-moz-animation: fadeIn linear 800ms;
+	-o-animation: fadeIn linear 800ms;
+	-ms-animation: fadeIn linear 800ms;
+}
+p {
+	animation-duration: 200ms;
+	animation-name: fadeIn;
+	font-family: Comic Sans MS, serif;
+}
+.h1 .h2 .h3 .h4 {
+	color: white;
+	animation: fadeIn linear 800ms;
+	-webkit-animation: fadeIn linear 800ms;
+	-moz-animation: fadeIn linear 800ms;
+	-o-animation: fadeIn linear 800ms;
+	-ms-animation: fadeIn linear 800ms;
+}
+img {
+	color: white;
+	animation: fadeIn linear 200ms;
+	-webkit-animation: fadeIn linear 200ms;
+	-moz-animation: fadeIn linear 200ms;
+	-o-animation: fadeIn linear 200ms;
+	-ms-animation: fadeIn linear 200ms;
+}
