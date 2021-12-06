@@ -1,5 +1,5 @@
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
- .alert {
+.alert {
 	background-color: white !important;
 	color: black !important;
 }
@@ -7,7 +7,7 @@
 	color: white !important;
 	border-color: black;
 }
-.poly-alert{
+.poly-alert {
 	background-color: black !important;
 	color: white !important;
 	border-color: white !important;
@@ -18,7 +18,7 @@ head {
 	box-shadow: 10px 5px 5px teal;
 	font-variant: small-caps;
 }
-.btn-primary{
+.btn-primary {
 	background-color: black !important;
 	color: white !important;
 	border-color: white !important;
@@ -27,11 +27,6 @@ head {
 	background-color: black !important;
 	color: white !important;
 	border-color: white !important;
-}
-a {
-	font-style: oblique;
-	color: white;
-	font-variant: small-caps;
 }
 a {
 	color: white !important;
@@ -43,12 +38,11 @@ a {
 	background: black !important;
 	border-color: white;
 }
-.alert{
+.alert {
 	color: white !important;
 	background: black !important;
 	border-color: white;
 }
-
 head {
 	color: white;
 }
@@ -110,7 +104,7 @@ body {
 	background-color: black;
 	border-color: white !important;
 }
-/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
+/*---------------------------------------- BASIC FONT/TEXT COLORS2 ----------------------------------------*/
  head {
 	background-color: white;
 	border:white;
@@ -233,6 +227,7 @@ td {
 th {
 	background-color: black !important;
 	border-color: white !important;
+	color: white !important;
 }
 .input-group-text {
 	background-color: black;
@@ -299,11 +294,11 @@ body {
 /*---------------------------------------- ANIMATIONS ----------------------------------------*/
  .card {
 	color: white;
-	animation: fadeIn linear 200ms;
-	-webkit-animation: fadeIn linear 200ms;
-	-moz-animation: fadeIn linear 200ms;
-	-o-animation: fadeIn linear 200ms;
-	-ms-animation: fadeIn linear 200ms;
+	animation: fadeIn linear 800ms;
+	-webkit-animation: fadeIn linear 800ms;
+	-moz-animation: fadeIn linear 800ms;
+	-o-animation: fadeIn linear 800ms;
+	-ms-animation: fadeIn linear 800ms;
 }
 @keyframes fadeIn {
 	0% {
@@ -373,4 +368,38 @@ img {
 	-moz-animation: fadeIn linear 200ms;
 	-o-animation: fadeIn linear 200ms;
 	-ms-animation: fadeIn linear 200ms;
+}
+@keyframes slideout {
+	from {
+		margin-left: 50%;
+		width: 300%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.dark_theme,
+.light_theme {
+    --background-message-hover: rgba(0, 0, 0, 0);
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-accent: transparent;
+    --background-floating: rgba(0, 0, 0, .8);
+    --deprecated-panel-background: transparent;
 }

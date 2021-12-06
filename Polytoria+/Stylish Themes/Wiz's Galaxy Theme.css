@@ -1,0 +1,370 @@
+.alert {
+    background-color:rgb(162, 108, 248) !important;
+    color: none !important;
+}
+.fe-alert-circle {
+    color: rgb(207, 83, 245) !important;
+    border-color: #161616 !important;
+}
+head {
+    background-color: rgb(138, 106, 255);
+    border-color: rgb(167, 13, 187);
+    box-shadow: none !important;
+    font-style: Helvetica;
+}
+a {
+    font-style: Helvetica;
+    color: white;
+}
+a {
+    color: rgb(157, 92, 241) !important;
+    background: none !important;
+    border-color:rgb(157, 92, 241) !important;
+}
+.alert .alert-primary .poly-alert {
+    color:rgb(108, 93, 240) !important;
+    background: none !important;
+    border-color: rgb(108, 93, 240) !important;
+}
+head {
+    color: rgb(143, 102, 255);
+}
+i {
+    color: rgb(164, 54, 253);
+    box-shadow: none;
+}
+img {
+    color: rgb(197, 101, 241);
+}
+card-body {
+    background-color: #161616;
+}
+H1 {
+    font-style: Helvetica;
+}
+h3 {
+    font-style: Helvetica;
+}
+h5 {
+    font-style: Helvetica;
+}
+p {
+    font-style: Helvetica;
+}
+.text-muted {
+    font-style: Helvetica !important;
+}
+.poly-chat-toggler {
+    border-color: rgb(155, 30, 228) !important;
+    background-color: #161616 !important;
+    box-shadow: 0px 15px 10px -15px rgb(156, 47, 230) !important;
+}
+.poly-chat-container {
+    color: rgb(155, 70, 252) !important;
+    background-color: #161616 !important;
+}
+body {
+    background-image: url('https://media.giphy.com/media/3ov9k1173PdfJWRsoE/giphy.gif') !important;
+    background-size: "cover" !important;
+    padding:0;
+    margin:0;
+}
+.th {
+    background-color: #161616 !important;
+    border-color: rgb(150, 77, 233) !important;
+}
+.text-reset {
+    background-image: url("text-reset")
+}
+.card {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #161616;
+    border-color: rgb(201, 72, 233) !important;
+}
+ head {
+    background-color: rgb(190, 77, 255);
+    border: rgb(190, 77, 255);
+}
+a {
+    font-style: Helvetica;
+    color: rgb(190, 77, 255);
+}
+head {
+    color: rgb(190, 77, 255);
+}
+i {
+    color: rgb(190, 77, 255);
+}
+img {
+    color: rgb(190, 77, 255);
+}
+H1 {
+    font-style: Helvetica;
+}
+p {
+    font-style: Helvetica;
+}
+.poly-chat-toggler {
+    border-color: rgb(190, 77, 255) !important;
+    background-color: #161616 !important;
+    box-shadow: none !important;
+}
+.poly-chat-container {
+    color: rgb(190, 77, 255) !important;
+    background-color : #161616 !important;
+}
+body {
+    background-image: url('https://media.giphy.com/media/3ov9k1173PdfJWRsoE/giphy.gif') !important;
+    background-size: "cover" !important;
+    padding:0;
+    margin:0;
+}
+.th {
+    background-color: #161616 !important;
+    border-color: rgb(190, 77, 255) !important;
+}
+.text-reset {
+    background-image: url("text-reset")
+}
+.card {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #161616 !important;
+    border-color: rgb(190, 77, 255) !important;
+    box-shadow: none !important;
+}
+.dropdown-menu {
+    background-color: #161616 !important;
+    border-color: rgb(190, 77, 255);
+}
+.custom-select {
+    border-color: rgb(190, 77, 255) !important;
+    background-color: #161616 !important;
+}
+.asset-owned {
+    border-color: rgb(71, 155, 252) !important;
+}
+.asset-limited {
+    border-color: #f8fc0e !important;
+}
+.modal-content {
+    background-color: none !important;
+    border: 1px solid rgb(190, 77, 255) !important;
+}
+li {
+    color: rgb(190, 77, 255);
+}
+div {
+    color: rgb(190, 77, 255);
+}
+a {
+    color:rgb(190, 77, 255);
+}
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.dropdown-menu {
+    background-color: #161616 !important;
+    border-color: rgb(190, 77, 255);
+}
+.nav-tabs .nav-link {
+    border: none !important;
+}
+.custom-select {
+    border-color: rgb(190, 77, 255) !important;
+    background-color: #161616 !important;
+}
+.asset-owned {
+    border-color: #0eb9fc !important;
+}
+.asset-limited {
+    border-color: #ffe600 !important;
+}
+.modal-content {
+    background-color: #161616 !important;
+    border: 1px solid rgb(162, 81, 255) !important;
+}
+body {
+    background-color: black !important;
+}
+td {
+    background-color: #161616 !important;
+    border: 1px solid rgb(190, 77, 255) !important;
+}
+.poly-chat-toggler {
+    background-color: #161616 !important;
+}
+.nav-pills .nav-link {
+    color: rgb(190, 77, 255) !important;
+    border-color: #992dff;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: black !important;
+        background-color: #d038ff !important;
+}
+.poly-chat-container {
+    color: rgb(190, 77, 255) !important;
+}
+th {
+    background-color: #161616 !important;
+    border-color: rgb(190, 77, 255) !important;
+}
+.input-group-text {
+    background-color: #161616;
+    border-color: rgb(190, 77, 255) !important;
+}
+.btn-white {
+    background-color: #161616 !important;
+    border-color: rgb(190, 77, 255) !important;
+}
+.active .page-link {
+    background-color: #9442ff !important;
+    border-color: rgb(190, 77, 255) !important;
+}
+.page-link {
+    background-color: #161616 !important;
+    border-color: rgb(190, 77, 255) !important;
+}
+.custom-select {
+    border-color: #7d4eff !important;
+    background-color: rgb(190, 77, 255) !important;
+}
+.modal-header {
+    background-color: #161616 !important;
+    border-bottom-color: rgb(190, 77, 255) !important;
+}
+.modal-footer {
+    border-color: rgb(190, 77, 255);
+}
+.modal-content {
+    background-color: #161616 !important;
+    border: 1px solid rgb(190, 77, 255) !important;
+}
+.card-header {
+    border-bottom-color: rgb(190, 77, 255) !important;
+}
+.form-control {
+    background-color: #161616 !important;
+    border-color: rgb(190, 77, 255) !important;
+    color: rgb(190, 77, 255) !important;
+}
+.list-group-item, .border-top {
+    border-bottom-color: rgb(190, 77, 255) !important;
+}
+.form-control-flush {
+    border: rgb(138, 106, 255) !important
+}
+ .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
+    background-color: #161616 !important;
+    background-repeat: repeat-y;
+}
+.navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
+    background: #161616 !important;
+    background-repeat: repeat-x !important;
+}
+.navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
+    background: #161616 !important;
+}
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+ .card {
+    color: rgb(255, 255, 255);
+    animation: fadeIn linear 200ms;
+    -webkit-animation: fadeIn linear 200ms;
+    -moz-animation: fadeIn linear 200ms;
+    -o-animation: fadeIn linear 200ms;
+    -ms-animation: fadeIn linear 200ms;
+}
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.img {
+    color: rgb(255, 255, 255);
+    animation: fadeIn linear 800ms;
+    -webkit-animation: fadeIn linear 800ms;
+    -moz-animation: fadeIn linear 800ms;
+    -o-animation: fadeIn linear 800ms;
+    -ms-animation: fadeIn linear 800ms;
+}
+p {
+    animation-duration: 200ms;
+    animation-name: fadeIn;
+    font-family: Helvetica;
+}
+.h1 .h2 .h3 .h4 {
+    color: rgb(255, 255, 255);
+    animation: fadeIn linear 800ms;
+    -webkit-animation: fadeIn linear 800ms;
+    -moz-animation: fadeIn linear 800ms;
+    -o-animation: fadeIn linear 800ms;
+    -ms-animation: fadeIn linear 800ms;
+}
+img {
+    color: rgb(255, 253, 253);
+    animation: fadeIn linear 200ms;
+    -webkit-animation: fadeIn linear 200ms;
+    -moz-animation: fadeIn linear 200ms;
+    -o-animation: fadeIn linear 200ms;
+    -ms-animation: fadeIn linear 200ms;
+}
+@keyframes slideout {
+    from {
+        margin-left: 50%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
