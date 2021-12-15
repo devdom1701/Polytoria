@@ -26,7 +26,6 @@ list-group-item {
 head {
 	background-color: white;
 	border-color:white;
-	box-shadow: 10px 5px 5px teal;
 	font-variant: small-caps;
 }
 .btn-primary {
@@ -38,6 +37,11 @@ head {
 	background-color: black !important;
 	color: white !important;
 	border-color: white !important;
+}
+.badge {
+	background-color: transparent !important;
+	border-color: white !important;
+	color: white !important;
 }
 a {
 	color: white !important;
