@@ -1,4 +1,10 @@
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
+
+list-group-item {
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
+}
 .alert {
 	background-color: white !important;
 	color: black !important;
@@ -7,14 +13,21 @@
 	color: white !important;
 	border-color: black;
 }
-head {	background-color: white;
-	border-color:white;
-	box-shadow: 10px 5px 5px teal;
-	font-variant: small-caps;}
 .poly-alert {
 	background-color: black !important;
 	color: white !important;
 	border-color: white !important;
+}
+.badge-secondary {
+	background: black !important;
+	color: white !important;
+	border: white !important;
+}
+head {
+	background-color: white;
+	border-color:white;
+	box-shadow: 10px 5px 5px teal;
+	font-variant: small-caps;
 }
 .btn-primary {
 	background-color: black !important;
@@ -26,7 +39,11 @@ head {	background-color: white;
 	color: white !important;
 	border-color: white !important;
 }
-
+a {
+	color: white !important;
+	background: black !important;
+	border-color: white !important;
+}
 .alert .alert-primary .poly-alert {
 	color: white !important;
 	background: black !important;
@@ -36,6 +53,9 @@ head {	background-color: white;
 	color: white !important;
 	background: black !important;
 	border-color: white;
+}
+head {
+	color: white;
 }
 i {
 	color: white;
@@ -57,6 +77,12 @@ h3 {
 }
 h5 {
 	font-variant: small-caps;
+}
+p {
+	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 900;
+	font-stretch: ultra-condensed;
 }
 .text-muted {
 	font-variant: small-caps !important;
@@ -83,20 +109,36 @@ body {
 .text-reset {
 	background-image: url("text-reset")
 }
+.card {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	border-color: white !important;
+}
 /*---------------------------------------- BASIC FONT/TEXT COLORS2 ----------------------------------------*/
+ head {
+	background-color: white;
+	border:white;
+}
 a {
 	font-style: oblique;
 	color: white;
-	font-weight: 1000;
-	color: white !important;
-	background: black !important;
-	border-color: white !important;
+	font-weight: 900;
+}
+head {
+	color: white;
+}
+i {
+	color: white;
 }
 img {
 	color: white;
 }
 H1 {
 	font-style: oblique;
+}
+p {
+	font-style: italic;
 }
 .poly-chat-toggler {
 	border-color: white !important;
@@ -119,6 +161,13 @@ body {
 }
 .text-reset {
 	background-image: url("text-reset")
+}
+.card {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	border-color: white !important;
+	box-shadow: shadow !important;
 }
 .dropdown-menu {
 	background-color: black !important;
@@ -143,6 +192,9 @@ li {
 }
 div {
 	color: white
+}
+a {
+	color:white;
 }
 body {
 	background-attachment: fixed;
@@ -235,15 +287,15 @@ th {
 }
 /*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
  .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
-	background-color: black !important;
+	background-color: transparent !important;
 	background-repeat: repeat-y;
 }
 .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
-	background: black !important;
+	background: transparent !important;
 	background-repeat: repeat-x !important;
 }
 .navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
-	background: black !important;
+	background: transparent !important;
 }
 body {
 	background-attachment: fixed;
@@ -253,11 +305,6 @@ body {
 /*---------------------------------------- ANIMATIONS ----------------------------------------*/
  .card {
 	color: white;
-	max-width: 100%;
-	max-height: 100%;
-	background-color: black;
-	border-color: white !important;
-	box-shadow: shadow !important;
 	animation: fadeIn linear 800ms;
 	-webkit-animation: fadeIn linear 800ms;
 	-moz-animation: fadeIn linear 800ms;
@@ -313,10 +360,6 @@ body {
 	-ms-animation: fadeIn linear 800ms;
 }
 p {
-	font-style: oblique;
-	font-variant: small-caps;
-	font-weight: 900;
-	font-stretch: ultra-condensed;
 	animation-duration: 200ms;
 	animation-name: fadeIn;
 	font-family: Comic Sans MS, serif;
@@ -357,7 +400,6 @@ img {
 }
 .dark_theme,
 .light_theme {
-    --background-message-hover: rgba(0, 0, 0, 0);
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --channels-default: #8e9297;
