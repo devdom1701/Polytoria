@@ -63,7 +63,6 @@ head {
 }
 i {
 	color: white;
-	box-shadow: 1px 1px 10px #141414;
 }
 img {
 	color: white;
@@ -130,9 +129,6 @@ a {
 	font-weight: 900;
 }
 head {
-	color: white;
-}
-i {
 	color: white;
 }
 img {
