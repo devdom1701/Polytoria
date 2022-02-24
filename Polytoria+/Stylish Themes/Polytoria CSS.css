@@ -636,9 +636,7 @@ a {
         opacity: 0;
     }
 }
-}
 
-@-moz-document url-prefix("https://polytoria.com/games/") {
 .carousel-indicators li {
     border-radius: 10px;
 }
@@ -650,4 +648,13 @@ a {
 .btn {
     border-radius: 10px;
 }
+.card {
+    border-radius: 10px;
+}
+i {
+    border-radius: 21px;
+    border-color: white;
+}
+.navbar-brand-img .mx-auto {
+	background-image: url("https://media.discordapp.net/attachments/783039318410133516/946413194744840232/polypoly.png?width=900&height=263");
 }
