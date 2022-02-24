@@ -413,3 +413,241 @@ img {
     --background-floating: rgba(0, 0, 0, .8);
     --deprecated-panel-background: transparent;
 }
+
+@-moz-document domain("polytoria.com") {
+iframe[src="/api/userads/fetch"] {
+    display: none;
+}
+
+.navbar-vertical {
+    box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.24);
+}
+
+select,
+option {
+    outline: none;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.zoom_sp {
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.zoom_sp:hover {
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0px 17px 32px -11px rgba(0, 0, 0, 0.32);
+    -webkit-box-shadow: 0px 17px 32px -11px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 17px 32px -11px rgba(0, 0, 0, 0.32);
+}
+
+button .fe,
+a .fe {
+    transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+button:active .fe,
+a:active .fe {
+    display: inline-block;
+    transform: scale(0.8);
+}
+
+button .fe-send {
+    transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: rotate(0deg);
+}
+
+button:hover .fe-send {
+    display: inline-block;
+    transform: rotate(37deg);
+}
+button:active .fe-send {
+    display: inline-block;
+    transform: rotate(37deg) scale(0.7);
+}
+
+.zoom_sp:active {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link,
+a {
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.navbar-nav .nav-link:hover {
+    transition: all 0.1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nav-tabs .nav-item a:hover {
+    transition: border-bottom-color 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nav-tabs .nav-item a:hover {
+    transition: border-bottom-color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    border-bottom-color: #2c7be5;
+}
+
+.dropdown-menu {
+    animation: dropDownMenu;
+    animation-duration: 0.5s !important;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0px 17px 44px -11px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0px 17px 44px -11px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 17px 44px -11px rgba(0, 0, 0, 0.24);
+}
+
+.dropdown-menu * {
+    animation: fadeIn;
+    animation-duration: 0.5s !important;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes dropDownMenu {
+    0% {
+        opacity: 0;
+        height: 0px;
+        padding: .0rem 0;
+    }
+    100% {
+        opacity: 1;
+        padding: .5rem 0;
+    }
+}
+
+.input-group-merge .show {
+    animation: searchBox;
+    animation-duration: 0.5s !important;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    height: 350px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#searchbar_content {
+    animation: fadeIn;
+    animation-duration: 0.5s !important;
+    animation-delay: 0.5s;
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    animation-fill-mode: forwards;
+}
+
+.btn {
+    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+    border-radius: 20px;
+}
+
+.btn:hover {
+    letter-spacing: 1px;
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn:active {
+    letter-spacing: 0px;
+}
+
+.poly-chat-toggler,
+.poly-chat-container {
+    transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+::selection {
+    background: #008cff45;
+}
+
+#games_container {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn-short {
+    animation-name: fadeIn;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes searchBox {
+    0% {
+        opacity: 0;
+        height: 0px;
+    }
+    100% {
+        opacity: 1;
+        height: 350px;
+    }
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.fadeOut-short {
+    animation-name: fadeOut;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+}
+
+@-moz-document url-prefix("https://polytoria.com/games/") {
+.carousel-indicators li {
+    border-radius: 10px;
+}
+
+.col-sm-6 img {
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 10px;
+}
+}
