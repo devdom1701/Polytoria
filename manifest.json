@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Polytoria+",
+    "version": "0.12.6",
+    "description": "a",
+    "author": "devdom",
+    "permissions": [
+      "storage"
+    ],
+    "content_scripts": [
+        {
+          "matches": [
+            "https://polytoria.com"
+          ],
+          "js": ["content.js"]
+        }
+      ]
+  }
