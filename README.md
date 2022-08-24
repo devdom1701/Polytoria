@@ -1,4 +1,4 @@
-## Hello And Welcome To Polytoria
+## welcome th polytoria
   This is where ill put nice creatons created by me, or the polytoria community.
 
 
@@ -66,4 +66,3 @@
 
 
 
-  line 69
