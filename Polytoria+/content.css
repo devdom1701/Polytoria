@@ -1,659 +1,383 @@
-	/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
+/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
+ .alert {
+	background-color: white !important;
+	color: black !important;
+}
+.fe-alert-circle {
+	color: white !important;
+	border-color: black;
+}
+.poly-alert{
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
+}
+head {
+	background-color: white;
+	border-color:white;
+	box-shadow: 10px 5px 5px teal;
+	font-variant: small-caps;
+}
+.btn-primary{
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
+}
+.btn {
+	background-color: black !important;
+	color: white !important;
+	border-color: white !important;
+}
+a {
+	font-style: oblique;
+	color: white;
+	font-variant: small-caps;
+}
+a {
+	color: white !important;
+	background: black !important;
+	border-color: white !important;
+}
+.alert .alert-primary .poly-alert {
+	color: white !important;
+	background: black !important;
+	border-color: white;
+}
+.alert{
+	color: white !important;
+	background: black !important;
+	border-color: white;
+}
 
-	list-group-item {
-		background-color: black !important;
-		color: white !important;
-		border-color: white !important;
+head {
+	color: white;
+}
+i {
+	color: white;
+	box-shadow: 1px 1px 10px #141414;
+}
+img {
+	color: white;
+}
+card-body {
+	background-color: black;
+}
+H1 {
+	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 900;
+}
+h3 {
+	font-variant: small-caps;
+}
+h5 {
+	font-variant: small-caps;
+}
+p {
+	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 900;
+	font-stretch: ultra-condensed;
+}
+.text-muted {
+	font-variant: small-caps !important;
+}
+.poly-chat-toggler {
+	border-color: white !important;
+	background-color: black !important;
+	box-shadow: white !important;
+}
+.poly-chat-container {
+	color: white !important;
+	background-color : black !important;
+}
+body {
+	color: white;
+	background: black;
+	background-position: center;
+	max-width: 100%;
+}
+.th {
+	background-color: black !important;
+	border-color: white !important;
+}
+.text-reset {
+	background-image: url("text-reset")
+}
+.card {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	border-color: white !important;
+}
+/*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
+ head {
+	background-color: white;
+	border:white;
+}
+a {
+	font-style: oblique;
+	color: white;
+	font-weight: 1000;
+}
+head {
+	color: white;
+}
+i {
+	color: white;
+}
+img {
+	color: white;
+}
+H1 {
+	font-style: oblique;
+}
+p {
+	font-style: italic;
+}
+.poly-chat-toggler {
+	border-color: white !important;
+	background-color: black !important;
+	box-shadow: white !important;
+}
+.poly-chat-container {
+	color: white !important;
+	background-color : black !important;
+}
+body {
+	color: white;
+	background: black;
+	background-position: center;
+	max-width: 100%;
+}
+.th {
+	background-color: black !important;
+	border-color: white !important;
+}
+.text-reset {
+	background-image: url("text-reset")
+}
+.card {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	border-color: white !important;
+	box-shadow: shadow !important;
+}
+.dropdown-menu {
+	background-color: black !important;
+	border-color: white;
+}
+.custom-select {
+	border-color: white !important;
+	background-color: black !important;
+}
+.asset-owned {
+	border-color: purple !important;
+}
+.asset-limited {
+	border-color: black !important;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid white !important;
+}
+li {
+	color: white;
+}
+div {
+	color: white
+}
+a {
+	color:white;
+}
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.dropdown-menu {
+	background-color: black !important;
+	border-color: white;
+}
+.custom-select {
+	border-color: white !important;
+	background-color: black !important;
+}
+.asset-owned {
+	border-color: purple !important;
+}
+.asset-limited {
+	border-color: black !important;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid white !important;
+}
+body {
+	background-color: black !important;
+}
+td {
+	background-color: black !important;
+	border: 1px solid white !important;
+}
+.poly-chat-toggler {
+	background-color: black !important;
+}
+.nav-pills .nav-link {
+	color: white !important;
+}
+.poly-chat-container {
+	color: white !important;
+}
+th {
+	background-color: black !important;
+	border-color: white !important;
+}
+.input-group-text {
+	background-color: black;
+	border-color: white !important;
+}
+.btn-white {
+	background-color: black !important;
+	border-color: white !important;
+}
+.active .page-link {
+	background-color: black !important;
+	border-color: white !important;
+}
+.page-link {
+	background-color: black !important;
+	border-color: white !important;
+}
+.custom-select {
+	border-color: black !important;
+	background-color: white !important;
+}
+.modal-header {
+	background-color: black !important;
+	border-bottom-color: white !important;
+}
+.modal-footer {
+	border-color: white;
+}
+.modal-content {
+	background-color: black !important;
+	border: 1px solid white !important;
+}
+.card-header {
+	border-bottom-color: white !important;
+}
+.form-control {
+	background-color: black !important;
+	border-color: white !important;
+	color: white !important;
+}
+.list-group-item, .border-top {
+	border-bottom-color: white !important;
+}
+.form-control-flush {
+	border: none !important
+}
+/*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
+ .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
+	background-color: black !important;
+	background-repeat: repeat-y;
+}
+.navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
+	background: black !important;
+	background-repeat: repeat-x !important;
+}
+.navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
+	background: black !important;
+}
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/*---------------------------------------- ANIMATIONS ----------------------------------------*/
+ .card {
+	color: white;
+	animation: fadeIn linear 200ms;
+	-webkit-animation: fadeIn linear 200ms;
+	-moz-animation: fadeIn linear 200ms;
+	-o-animation: fadeIn linear 200ms;
+	-ms-animation: fadeIn linear 200ms;
+}
+@keyframes fadeIn {
+	0% {
+		opacity:0;
 	}
-	.alert {
-		background-color: white !important;
-		color: black !important;
+	100% {
+		opacity:1;
 	}
-	.fe-alert-circle {
-		color: white !important;
-		border-color: black;
+}
+@-moz-keyframes fadeIn {
+	0% {
+		opacity:0;
 	}
-	.poly-alert {
-		background-color: black !important;
-		color: white !important;
-		border-color: white !important;
+	100% {
+		opacity:1;
 	}
-	.badge-secondary {
-		background: black !important;
-		color: white !important;
-		border: white !important;
+}
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity:0;
 	}
-	head {
-		background-color: white;
-		border-color:white;
+	100% {
+		opacity:1;
 	}
-	.btn-primary {
-		background-color: black !important;
-		color: white !important;
-		border-color: white !important;
+}
+@-o-keyframes fadeIn {
+	0% {
+		opacity:0;
 	}
-	.btn {
-		background-color: black !important;
-		color: white !important;
-		border-color: white !important;
+	100% {
+		opacity:1;
 	}
-	.badge {
-		background-color: transparent !important;
-		border-color: white !important;
-		color: white !important;
+}
+@-ms-keyframes fadeIn {
+	0% {
+		opacity:0;
 	}
-	a {
-		color: white !important;
-		background: black !important;
-		border-color: white !important;
+	100% {
+		opacity:1;
 	}
-	.alert .alert-primary .poly-alert {
-		color: white !important;
-		background: black !important;
-		border-color: white;
-	}
-	.alert {
-		color: white !important;
-		background: black !important;
-		border-color: white;
-	}
-	head {
-		color: white;
-	}
-	i {
-		color: white;
-	}
-	img {
-		color: white;
-	}
-	card-body {
-		background-color: black;
-	}
-	H1 {
-		font-style: oblique;
-		font-variant: small-caps;
-		font-weight: 900;
-	}
-	h3 {
-		font-variant: small-caps;
-	}
-	h5 {
-		font-variant: small-caps;
-	}
-	p {
-		font-style: oblique;
-		font-weight: 900;
-		font-stretch: ultra-condensed;
-	}
-	.text-muted {
-		font-variant: small-caps !important;
-	}
-	.poly-chat-toggler {
-		border-color: white !important;
-		background-color: black !important;
-		box-shadow: white !important;
-	}
-	.poly-chat-container {
-		color: white !important;
-		background-color : black !important;
-	}
-	body {
-		color: white;
-		background: black;
-		background-position: center;
-		max-width: 100%;
-	}
-	.th {
-		background-color: black !important;
-		border-color: white !important;
-	}
-	.text-reset {
-		background-image: url("text-reset")
-	}
-	.card {
-		max-width: 100%;
-		max-height: 100%;
-		background-color: black;
-		border-color: white !important;
-	}
-	/*---------------------------------------- BASIC FONT/TEXT COLORS2 ----------------------------------------*/
-	head {
-		background-color: white;
-		border:white;
-	}
-	a {
-		font-style: oblique;
-		color: white;
-		font-weight: 900;
-	}
-	head {
-		color: white;
-	}
-	img {
-		color: white;
-	}
-	H1 {
-		font-style: oblique;
-	}
-	p {
-		font-style: italic;
-	}
-	.poly-chat-toggler {
-		border-color: white !important;
-		background-color: black !important;
-		box-shadow: white !important;
-	}
-	.poly-chat-container {
-		color: white !important;
-		background-color : black !important;
-	}
-	body {
-		color: white;
-		background: black;
-		background-position: center;
-		max-width: 100%;
-	}
-	.th {
-		background-color: black !important;
-		border-color: white !important;
-	}
-	.text-reset {
-		background-image: url("text-reset")
-	}
-	.card {
-		max-width: 100%;
-		max-height: 100%;
-		background-color: black;
-		border-color: white !important;
-		box-shadow: shadow !important;
-	}
-	.dropdown-menu {
-		background-color: black !important;
-		border-color: white;
-	}
-	.custom-select {
-		border-color: white !important;
-		background-color: black !important;
-	}
-	.asset-owned {
-		border-color: purple !important;
-	}
-	.asset-limited {
-		border-color: black !important;
-	}
-	.modal-content {
-		background-color: black !important;
-		border: 1px solid white !important;
-	}
-	li {
-		color: white;
-	}
-	div {
-		color: white
-	}
-	a {
-		color:white;
-	}
-	body {
-		background-attachment: fixed;
-		background-position: center;
-		background-size: cover;
-	}
-	.dropdown-menu {
-		background-color: black !important;
-		border-color: white;
-	}
-	.custom-select {
-		border-color: white !important;
-		background-color: black !importa	nt;
-	}
-	.asset-owned {
-		border-color: purple !important;
-	}
-	.asset-limited {
-		border-color: black !important;
-	}
-	.modal-content {
-		background-color: black !important;
-		border: 1px solid white !important;
-	}
-	body {
-		background-color: black !important;
-	}
-	td {
-		background-color: black !important;
-		border: 1px solid white !important;
-	}
-	.poly-chat-toggler {
-		background-color: black !important;
-	}
+}
+.img {
+	color: white;
+	animation: fadeIn linear 800ms;
+	-webkit-animation: fadeIn linear 800ms;
+	-moz-animation: fadeIn linear 800ms;
+	-o-animation: fadeIn linear 800ms;
+	-ms-animation: fadeIn linear 800ms;
+}
+p {
+	animation-duration: 200ms;
+	animation-name: fadeIn;
+	font-family: Comic Sans MS, serif;
+}
+.h1 .h2 .h3 .h4 {
+	color: white;
+	animation: fadeIn linear 800ms;
+	-webkit-animation: fadeIn linear 800ms;
+	-moz-animation: fadeIn linear 800ms;
+	-o-animation: fadeIn linear 800ms;
+	-ms-animation: fadeIn linear 800ms;
+}
+img {
+	color: white;
+	animation: fadeIn linear 200ms;
+	-webkit-animation: fadeIn linear 200ms;
+	-moz-animation: fadeIn linear 200ms;
+	-o-animation: fadeIn linear 200ms;
+	-ms-animation: fadeIn linear 200ms;
+}
 
-	.nav-pills .nav-link {
-		color: white !important;
-	}
-	.poly-chat-container {
-		color: white !important;
-	}
-	th {
-		background-color: black !important;
-		border-color: white !important;
-		color: white !important;
-	}
-	.input-group-text {
-		background-color: black;
-		border-color: white !important;
-	}
-	.btn-white {
-		background-color: black !important;
-		border-color: white !important;
-	}
-	.active .page-link {
-		background-color: black !important;
-		border-color: white !important;
-	}
-	.page-link {
-		background-color: black !important;
-		border-color: white !important;
-	}
-	.custom-select {
-		border-color: black !important;
-		background-color: white !important;
-	}
-	.modal-header {
-		background-color: black !important;
-		border-bottom-color: white !important;
-	}
-	.modal-footer {
-		border-color: white;
-	}
-	.modal-content {
-		background-color: black !important;
-		border: 1px solid white !important;
-	}
-	.card-header {
-		border-bottom-color: white !important;
-	}
-	.form-control {
-		background-color: black !important;
-		border-color: white !important;
-		color: white !important;
-	}
-	.list-group-item, .border-top {
-		border-bottom-color: white !important;
-	}
-	.form-control-flush {
-		border: none !important
-	}
-	/*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
-	.navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
-		background-color: transparent !important;
-		background-repeat: repeat-y;
-	}
-	.navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
-		background: transparent !important;
-		background-repeat: repeat-x !important;
-	}
-	.navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
-		background: transparent !important;
-	}
-	body {
-		background-attachment: fixed;
-		background-position: center;
-		background-size: cover;
-	}
-	/*---------------------------------------- ANIMATIONS ----------------------------------------*/
-	.card {
-		color: white;
-		animation: fadeIn linear 800ms;
-		-webkit-animation: fadeIn linear 800ms;
-		-moz-animation: fadeIn linear 800ms;
-		-o-animation: fadeIn linear 800ms;
-		-ms-animation: fadeIn linear 800ms;
-	}
-	@keyframes fadeIn {
-		0% {
-			opacity:0;
-		}
-		100% {
-			opacity:1;
-		}
-	}
-	@-moz-keyframes fadeIn {
-		0% {
-			opacity:0;
-		}
-		100% {
-			opacity:1;
-		}
-	}
-	@-webkit-keyframes fadeIn {
-		0% {
-			opacity:0;
-		}
-		100% {
-			opacity:1;
-		}
-	}
-	@-o-keyframes fadeIn {
-		0% {
-			opacity:0;
-		}
-		100% {
-			opacity:1;
-		}
-	}
-	@-ms-keyframes fadeIn {
-		0% {
-			opacity:0;
-		}
-		100% {
-			opacity:1;
-		}
-	}
-	.img {
-		color: white;
-		animation: fadeIn linear 800ms;
-		-webkit-animation: fadeIn linear 800ms;
-		-moz-animation: fadeIn linear 800ms;
-		-o-animation: fadeIn linear 800ms;
-		-ms-animation: fadeIn linear 800ms;
-	}
-	p {
-		animation-duration: 200ms;
-		animation-name: fadeIn;
-		font-family: Comic Sans MS, serif;
-	}
-	.h1 .h2 .h3 .h4 {
-		color: white;
-		animation: fadeIn linear 800ms;
-		-webkit-animation: fadeIn linear 800ms;
-		-moz-animation: fadeIn linear 800ms;
-		-o-animation: fadeIn linear 800ms;
-		-ms-animation: fadeIn linear 800ms;
-	}
-	img {
-		color: white;
-		animation: fadeIn linear 200ms;
-		-webkit-animation: fadeIn linear 200ms;
-		-moz-animation: fadeIn linear 200ms;
-		-o-animation: fadeIn linear 200ms;
-		-ms-animation: fadeIn linear 200ms;
-	}
-	@keyframes slideout {
-		from {
-			margin-left: 50%;
-			width: 300%;
-		}
-		to {
-			margin-left: 0%;
-			width: 100%;
-		}
-	}
-	@keyframes rotate {
-		0% {
-			transform: rotate(0);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-	.dark_theme,
-	.light_theme {
-		--header-primary: #fff;
-		--header-secondary: #b9bbbe;
-		--channels-default: #8e9297;
-		--interactive-normal: #b9bbbe;
-		--interactive-hover: #dcddde;
-		--interactive-active: #fff;
-		--background-primary: transparent;
-		--background-secondary: transparent;
-		--background-tertiary: transparent;
-		--background-accent: transparent;
-		--background-floating: rgba(0, 0, 0, .8);
-		--deprecated-panel-background: transparent;
-	}
+.badge.badge-soft-success{
+	outline-color:rgb(26, 237, 245);
+	outline-width: medium;
+	outline-style: solid;
 
-	@-moz-document domain("polytoria.com") {
-	iframe[src="/api/userads/fetch"] {
-		display: none;
-	}
-
-	.navbar-vertical {
-		box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.24);
-		-webkit-box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.24);
-		-moz-box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.24);
-	}
-
-	select,
-	option {
-		outline: none;
-	}
-
-	.grecaptcha-badge {
-		visibility: hidden;
-	}
-
-	::-webkit-scrollbar {
-		width: 0px;
-	}
-
-	::-webkit-scrollbar-track {
-		background: #f1f1f1;
-	}
-
-	::-webkit-scrollbar-thumb {
-		background: #888;
-	}
-
-	::-webkit-scrollbar-thumb:hover {
-		background: #555;
-	}
-
-	.zoom_sp {
-		transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
-	}
-
-	.zoom_sp:hover {
-		transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-		box-shadow: 0px 17px 32px -11px rgba(0, 0, 0, 0.32);
-		-webkit-box-shadow: 0px 17px 32px -11px rgba(0, 0, 0, 0.32);
-		-moz-box-shadow: 0px 17px 32px -11px rgba(0, 0, 0, 0.32);
-	}
-
-	button .fe,
-	a .fe {
-		transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
-	}
-
-	button:active .fe,
-	a:active .fe {
-		display: inline-block;
-		transform: scale(0.8);
-	}
-
-	button .fe-send {
-		transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
-		transform: rotate(0deg);
-	}
-
-	button:hover .fe-send {
-		display: inline-block;
-		transform: rotate(37deg);
-	}
-	button:active .fe-send {
-		display: inline-block;
-		transform: rotate(37deg) scale(0.7);
-	}
-
-	.zoom_sp:active {
-		transform: scale(1.1);
-	}
-
-	.navbar-nav .nav-link,
-	a {
-		transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
-	}
-
-	.navbar-nav .nav-link:hover {
-		transition: all 0.1s cubic-bezier(0.16, 1, 0.3, 1);
-	}
-
-	.nav-tabs .nav-item a:hover {
-		transition: border-bottom-color 1s cubic-bezier(0.16, 1, 0.3, 1);
-	}
-
-	.nav-tabs .nav-item a:hover {
-		transition: border-bottom-color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-		border-bottom-color: #2c7be5;
-	}
-
-	.dropdown-menu {
-		animation: dropDownMenu;
-		animation-duration: 0.5s !important;
-		animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
-		box-shadow: 0px 17px 44px -11px rgba(0, 0, 0, 0.24);
-		-webkit-box-shadow: 0px 17px 44px -11px rgba(0, 0, 0, 0.24);
-		-moz-box-shadow: 0px 17px 44px -11px rgba(0, 0, 0, 0.24);
-	}
-
-	.dropdown-menu * {
-		animation: fadeIn;
-		animation-duration: 0.5s !important;
-		animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
-	}
-
-	@keyframes dropDownMenu {
-		0% {
-			opacity: 0;
-			height: 0px;
-			padding: .0rem 0;
-		}
-		100% {
-			opacity: 1;
-			padding: .5rem 0;
-		}
-	}
-
-	.input-group-merge .show {
-		animation: searchBox;
-		animation-duration: 0.5s !important;
-		animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
-		height: 350px;
-		border: none;
-		border-bottom-left-radius: 10px;
-		border-bottom-right-radius: 10px;
-	}
-
-	#searchbar_content {
-		animation: fadeIn;
-		animation-duration: 0.5s !important;
-		animation-delay: 0.5s;
-		opacity: 0;
-		animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
-		animation-fill-mode: forwards;
-	}
-
-	.btn {
-		transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
-		border-radius: 20px;
-	}
-
-	.btn:hover {
-		letter-spacing: 1px;
-		transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-	}
-
-	.btn:active {
-		letter-spacing: 0px;
-	}
-
-	.poly-chat-toggler,
-	.poly-chat-container {
-		transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-
-	::selection {
-		background: #008cff45;
-	}
-
-	#games_container {
-		animation-name: fadeIn;
-		animation-duration: 1s;
-		animation-fill-mode: forwards;
-	}
-
-	.fadeIn {
-		animation-name: fadeIn;
-		animation-duration: 1s;
-		animation-fill-mode: forwards;
-	}
-
-	.fadeIn-short {
-		animation-name: fadeIn;
-		animation-duration: 0.1s;
-		animation-fill-mode: forwards;
-	}
-
-	@keyframes searchBox {
-		0% {
-			opacity: 0;
-			height: 0px;
-		}
-		100% {
-			opacity: 1;
-			height: 350px;
-		}
-	}
-
-
-	@keyframes fadeIn {
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
-
-	.fadeOut {
-		animation-name: fadeOut;
-		animation-duration: 1s;
-		animation-fill-mode: forwards;
-	}
-
-	.fadeOut-short {
-		animation-name: fadeOut;
-		animation-duration: 0.1s;
-		animation-fill-mode: forwards;
-	}
-
-	@keyframes fadeOut {
-		0% {
-			opacity: 1;
-		}
-		100% {
-			opacity: 0;
-		}
-	}
-
-	.carousel-indicators li {
-		border-radius: 10px;
-	}
-
-	.col-sm-6 img {
-		border-radius: 5px;
-	}
-
-	.btn {
-		border-radius: 10px;
-	}
-	.card {
-		border-radius: 10px;
-	}
-	i {
-		border-radius: 21px;
-		border-color: white;
-	}
-	.navbar-brand-img .mx-auto {
-		background-image: url("https://media.discordapp.net/attachments/783039318410133516/946413194744840232/polypoly.png?width=900&height=263");
-	}
+}
