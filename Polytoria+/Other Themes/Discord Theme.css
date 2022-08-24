@@ -1,6 +1,6 @@
 /*---------------------------------------- BACKGROUND ----------------------------------------*/
- body {
-	background: url ("https://media.discordapp.net/attachments/783039318410133516/905908935272304660/Untitled_design.gif");
+body {
+	background: url ("https://media.discordapp.net/attachments/783039318410133516/905908935272304660/Untitled_design.gif") /*--change this with your custom image link*/
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
