@@ -26,7 +26,6 @@
 	head {
 		background-color: white;
 		border-color:white;
-		font-variant: small-caps;
 	}
 	.btn-primary {
 		background-color: black !important;
@@ -83,7 +82,6 @@
 	}
 	p {
 		font-style: oblique;
-		font-variant: small-caps;
 		font-weight: 900;
 		font-stretch: ultra-condensed;
 	}
