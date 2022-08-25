@@ -381,3 +381,9 @@ img {
 	outline-style: solid;
 
 }
+.badge.badge-pill.badge-secondary{	
+	outline-color:rgb(255, 255, 255);
+	outline-width: medium;
+	outline-style: solid;}
+
+
