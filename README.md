@@ -1,4 +1,4 @@
-## welcome th polytoria
+## welcome to polytoria
   This is where ill put nice creatons created by me, or the polytoria community.
 
 
