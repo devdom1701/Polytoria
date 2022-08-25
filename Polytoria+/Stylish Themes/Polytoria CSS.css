@@ -378,14 +378,13 @@ img {
 .badge.badge-soft-success{
 	outline-color:rgb(26, 237, 245);
 	outline-style: solid;
-
 }
 .badge.badge-pill.badge-secondary{	
 	outline-color:rgb(255, 255, 255);
 	outline-style: solid;
 }
 .comment-body{
-	outline-color:rgb(255, 255, 255)
+	outline-color:rgb(255, 255, 255);
 	outline-style: solid;
 	background-color: black;
 }
