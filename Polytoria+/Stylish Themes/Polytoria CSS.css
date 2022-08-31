@@ -389,4 +389,8 @@ img {
 	background-color: black;
 }
 
-
+.badge.badge-pill.badge-danger{
+	background-color: darkred;
+	outline-color: white;
+	outline-style: solid;
+}
