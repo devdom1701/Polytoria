@@ -1,14 +1,14 @@
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
 .alert {
 	background-color: white !important;
-	color: black !important;
+	color: darkblue !important;
 }
 .fe-alert-circle {
 	color: white !important;
-	border-color: black;
+	border-color: darkblue;
 }
 .poly-alert{
-	background-color: black !important;
+	background-color: darkblue !important;
 	color: white !important;
 	border-color: white !important;
 }
@@ -19,12 +19,12 @@ head {
 	font-variant: small-caps;
 }
 .btn-primary{
-	background-color: black !important;
+	background-color: darkblue !important;
 	color: white !important;
 	border-color: white !important;
 }
 .btn {
-	background-color: black !important;
+	background-color: darkblue !important;
 	color: white !important;
 	border-color: white !important;
 }
@@ -35,17 +35,17 @@ a {
 }
 a {
 	color: white !important;
-	background: black !important;
+	background: darkblue !important;
 	border-color: white !important;
 }
 .alert .alert-primary .poly-alert {
 	color: white !important;
-	background: black !important;
+	background: darkblue !important;
 	border-color: white;
 }
 .alert{
 	color: white !important;
-	background: black !important;
+	background: darkblue !important;
 	border-color: white;
 }
 
@@ -60,7 +60,7 @@ img {
 	color: white;
 }
 card-body {
-	background-color: black;
+	background-color: darkblue;
 }
 H1 {
 	font-style: oblique;
@@ -84,21 +84,21 @@ p {
 }
 .poly-chat-toggler {
 	border-color: white !important;
-	background-color: black !important;
+	background-color: darkblue !important;
 	box-shadow: white !important;
 }
 .poly-chat-container {
 	color: white !important;
-	background-color : black !important;
+	background-color : darkblue !important;
 }
 body {
 	color: white;
-	background: black;
+	background: darkblue;
 	background-position: center;
 	max-width: 100%;
 }
 .th {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white !important;
 }
 .text-reset {
@@ -107,7 +107,7 @@ body {
 .card {
 	max-width: 100%;
 	max-height: 100%;
-	background-color: black;
+	background-color: darkblue;
 	border-color: white !important;
 }
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
@@ -137,21 +137,21 @@ p {
 }
 .poly-chat-toggler {
 	border-color: white !important;
-	background-color: black !important;
+	background-color: darkblue !important;
 	box-shadow: white !important;
 }
 .poly-chat-container {
 	color: white !important;
-	background-color : black !important;
+	background-color : darkblue !important;
 }
 body {
 	color: white;
-	background: black;
+	background: darkblue;
 	background-position: center;
 	max-width: 100%;
 }
 .th {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white !important;
 }
 .text-reset {
@@ -160,26 +160,26 @@ body {
 .card {
 	max-width: 100%;
 	max-height: 100%;
-	background-color: black;
+	background-color: darkblue;
 	border-color: white !important;
 	box-shadow: shadow !important;
 }
 .dropdown-menu {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white;
 }
 .custom-select {
 	border-color: white !important;
-	background-color: black !important;
+	background-color: darkblue !important;
 }
 .asset-owned {
 	border-color: purple !important;
 }
 .asset-limited {
-	border-color: black !important;
+	border-color: darkblue !important;
 }
 .modal-content {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border: 1px solid white !important;
 }
 li {
@@ -197,32 +197,32 @@ body {
 	background-size: cover;
 }
 .dropdown-menu {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white;
 }
 .custom-select {
 	border-color: white !important;
-	background-color: black !important;
+	background-color: darkblue !important;
 }
 .asset-owned {
 	border-color: purple !important;
 }
 .asset-limited {
-	border-color: black !important;
+	border-color: darkblue !important;
 }
 .modal-content {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border: 1px solid white !important;
 }
 body {
-	background-color: black !important;
+	background-color: darkblue !important;
 }
 td {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border: 1px solid white !important;
 }
 .poly-chat-toggler {
-	background-color: black !important;
+	background-color: darkblue !important;
 }
 .nav-pills .nav-link {
 	color: white !important;
@@ -231,45 +231,45 @@ td {
 	color: white !important;
 }
 th {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white !important;
 }
 .input-group-text {
-	background-color: black;
+	background-color: darkblue;
 	border-color: white !important;
 }
 .btn-white {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white !important;
 }
 .active .page-link {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white !important;
 }
 .page-link {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white !important;
 }
 .custom-select {
-	border-color: black !important;
+	border-color: darkblue !important;
 	background-color: white !important;
 }
 .modal-header {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-bottom-color: white !important;
 }
 .modal-footer {
 	border-color: white;
 }
 .modal-content {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border: 1px solid white !important;
 }
 .card-header {
 	border-bottom-color: white !important;
 }
 .form-control {
-	background-color: black !important;
+	background-color: darkblue !important;
 	border-color: white !important;
 	color: white !important;
 }
@@ -281,15 +281,15 @@ th {
 }
 /*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
  .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
-	background-color: black !important;
+	background-color: darkblue !important;
 	background-repeat: repeat-y;
 }
 .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
-	background: black !important;
+	background: darkblue !important;
 	background-repeat: repeat-x !important;
 }
 .navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
-	background: black !important;
+	background: darkblue !important;
 }
 body {
 	background-attachment: fixed;
@@ -386,7 +386,7 @@ img {
 .comment-body{
 	outline-color:rgb(255, 255, 255);
 	outline-style: solid;
-	background-color: black;
+	background-color: darkblue;
 }
 
 .badge.badge-pill.badge-danger{
@@ -394,3 +394,4 @@ img {
 	outline-color: white;
 	outline-style: solid;
 }
+
