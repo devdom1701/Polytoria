@@ -1,14 +1,14 @@
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
 .alert {
 	background-color: white !important;
-	color: darkblue !important;
+	color: #141414 !important;
 }
 .fe-alert-circle {
 	color: white !important;
-	border-color: darkblue;
+	border-color: #141414;
 }
 .poly-alert{
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	color: white !important;
 	border-color: white !important;
 }
@@ -19,14 +19,15 @@ head {
 	font-variant: small-caps;
 }
 .btn-primary{
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	color: white !important;
 	border-color: white !important;
 }
 .btn {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	color: white !important;
-	border-color: white !important;
+	outline-color: white;
+	outline-width: thin;
 }
 a {
 	font-style: oblique;
@@ -35,17 +36,17 @@ a {
 }
 a {
 	color: white !important;
-	background: darkblue !important;
+	background: #141414 !important;
 	border-color: white !important;
 }
 .alert .alert-primary .poly-alert {
 	color: white !important;
-	background: darkblue !important;
+	background: #141414 !important;
 	border-color: white;
 }
 .alert{
 	color: white !important;
-	background: darkblue !important;
+	background: #141414 !important;
 	border-color: white;
 }
 
@@ -59,8 +60,9 @@ i {
 img {
 	color: white;
 }
-card-body {
-	background-color: darkblue;
+.card-body {
+	background-color: #141414 !important;
+
 }
 H1 {
 	font-style: oblique;
@@ -84,21 +86,21 @@ p {
 }
 .poly-chat-toggler {
 	border-color: white !important;
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	box-shadow: white !important;
 }
 .poly-chat-container {
 	color: white !important;
-	background-color : darkblue !important;
+	background-color : #141414 !important;
 }
 body {
 	color: white;
-	background: darkblue;
+	background: #141414;
 	background-position: center;
 	max-width: 100%;
 }
 .th {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white !important;
 }
 .text-reset {
@@ -107,7 +109,7 @@ body {
 .card {
 	max-width: 100%;
 	max-height: 100%;
-	background-color: darkblue;
+	background-color: #141414;
 	border-color: white !important;
 }
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
@@ -137,21 +139,21 @@ p {
 }
 .poly-chat-toggler {
 	border-color: white !important;
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	box-shadow: white !important;
 }
 .poly-chat-container {
 	color: white !important;
-	background-color : darkblue !important;
+	background-color : #141414 !important;
 }
 body {
 	color: white;
-	background: darkblue;
+	background: #141414;
 	background-position: center;
 	max-width: 100%;
 }
 .th {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white !important;
 }
 .text-reset {
@@ -160,26 +162,26 @@ body {
 .card {
 	max-width: 100%;
 	max-height: 100%;
-	background-color: darkblue;
+	background-color: #141414;
 	border-color: white !important;
 	box-shadow: shadow !important;
 }
 .dropdown-menu {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white;
 }
 .custom-select {
 	border-color: white !important;
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 }
 .asset-owned {
 	border-color: purple !important;
 }
 .asset-limited {
-	border-color: darkblue !important;
+	border-color: #141414 !important;
 }
 .modal-content {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border: 1px solid white !important;
 }
 li {
@@ -197,32 +199,32 @@ body {
 	background-size: cover;
 }
 .dropdown-menu {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white;
 }
 .custom-select {
 	border-color: white !important;
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 }
 .asset-owned {
 	border-color: purple !important;
 }
 .asset-limited {
-	border-color: darkblue !important;
+	border-color: #141414 !important;
 }
 .modal-content {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border: 1px solid white !important;
 }
 body {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 }
 td {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border: 1px solid white !important;
 }
 .poly-chat-toggler {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 }
 .nav-pills .nav-link {
 	color: white !important;
@@ -231,45 +233,49 @@ td {
 	color: white !important;
 }
 th {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white !important;
 }
 .input-group-text {
-	background-color: darkblue;
+	background-color: #141414;
 	border-color: white !important;
 }
 .btn-white {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white !important;
 }
 .active .page-link {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white !important;
 }
 .page-link {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white !important;
 }
 .custom-select {
-	border-color: darkblue !important;
+	border-color: #141414 !important;
 	background-color: white !important;
 }
 .modal-header {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-bottom-color: white !important;
 }
 .modal-footer {
 	border-color: white;
 }
 .modal-content {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border: 1px solid white !important;
 }
 .card-header {
 	border-bottom-color: white !important;
 }
+.card{
+	background-color: #141414 !important;
+
+}
 .form-control {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	border-color: white !important;
 	color: white !important;
 }
@@ -281,15 +287,21 @@ th {
 }
 /*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
  .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
-	background-color: darkblue !important;
+	background-color: #141414 !important;
 	background-repeat: repeat-y;
 }
 .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
-	background: darkblue !important;
+	background: #141414 !important;
 	background-repeat: repeat-x !important;
 }
 .navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
-	background: darkblue !important;
+	background: #141414 !important;
+}
+.sidebarCollapse{
+	outline-color: white;
+	outline-width: thin;
+	background-color: white;
+
 }
 body {
 	background-attachment: fixed;
@@ -376,8 +388,11 @@ img {
 }
 
 .badge.badge-soft-success{
-	outline-color:rgb(26, 237, 245);
+	outline-color: aqua;
+	outline-width: thin;
 	outline-style: solid;
+	background-color:aqua;
+	text-decoration-color: white;
 }
 .badge.badge-pill.badge-secondary{	
 	outline-color:rgb(255, 255, 255);
@@ -386,12 +401,7 @@ img {
 .comment-body{
 	outline-color:rgb(255, 255, 255);
 	outline-style: solid;
-	background-color: darkblue;
+	background-color: #141414;
 }
 
-.badge.badge-pill.badge-danger{
-	background-color: darkred;
-	outline-color: white;
-	outline-style: solid;
-}
 
