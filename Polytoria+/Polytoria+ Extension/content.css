@@ -1,14 +1,14 @@
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
 .alert {
 	background-color: white !important;
-	color: #141414 !important;
+	color: #0c1a38 !important;
 }
 .fe-alert-circle {
 	color: white !important;
-	border-color: #141414;
+	border-color: #0c1a38;
 }
 .poly-alert{
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	color: white !important;
 	border-color: white !important;
 }
@@ -19,50 +19,38 @@ head {
 	font-variant: small-caps;
 }
 .btn-primary{
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	color: white !important;
 	border-color: white !important;
 }
-.btn {
-	background-color: #141414 !important;
-	color: white !important;
-	outline-color: white;
-	outline-width: thin;
-}
+
 a {
 	font-style: oblique;
 	color: white;
 	font-variant: small-caps;
-}
-a {
 	color: white !important;
-	background: #141414 !important;
+	background: #0c1a38 !important;
 	border-color: white !important;
 }
+
 .alert .alert-primary .poly-alert {
 	color: white !important;
-	background: #141414 !important;
+	background: #0c1a38 !important;
 	border-color: white;
 }
 .alert{
 	color: white !important;
-	background: #141414 !important;
+	background: #0c1a38 !important;
 	border-color: white;
 }
 
 head {
 	color: white;
 }
-i {
-	color: white;
-	box-shadow: 1px 1px 10px #141414;
-}
-img {
-	color: white;
-}
-.card-body {
-	background-color: #141414 !important;
 
+.card-body {
+	background-color: #0c1a38 !important;
+	
 }
 H1 {
 	font-style: oblique;
@@ -70,14 +58,13 @@ H1 {
 	font-weight: 900;
 }
 h3 {
-	font-variant: small-caps;
+	color:white;
 }
 h5 {
 	font-variant: small-caps;
 }
 p {
 	font-style: oblique;
-	font-variant: small-caps;
 	font-weight: 900;
 	font-stretch: ultra-condensed;
 }
@@ -86,36 +73,36 @@ p {
 }
 .poly-chat-toggler {
 	border-color: white !important;
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	box-shadow: white !important;
 }
 .poly-chat-container {
 	color: white !important;
-	background-color : #141414 !important;
+	background-color : #0c1a38 !important;
 }
 body {
 	color: white;
-	background: #141414;
+	background: #0c1a38;
 	background-position: center;
 	max-width: 100%;
 }
 .th {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white !important;
 }
 .text-reset {
 	background-image: url("text-reset")
 }
-.card {
-	max-width: 100%;
-	max-height: 100%;
-	background-color: #141414;
-	border-color: white !important;
-}
+
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
  head {
 	background-color: white;
 	border:white;
+}
+.btn-link{
+	color:white;
+	font-family: 'Comic Sans MS', Courier, monospace;
+	text-decoration-color: white;
 }
 a {
 	font-style: oblique;
@@ -136,59 +123,54 @@ H1 {
 }
 p {
 	font-style: italic;
+	font-family: 'Comic Sans MS', Courier, monospace;
 }
 .poly-chat-toggler {
 	border-color: white !important;
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	box-shadow: white !important;
 }
 .poly-chat-container {
 	color: white !important;
-	background-color : #141414 !important;
+	background-color : #0c1a38 !important;
 }
 body {
 	color: white;
-	background: #141414;
+	background: #0c1a38;
 	background-position: center;
 	max-width: 100%;
 }
 .th {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white !important;
 }
 .text-reset {
 	background-image: url("text-reset")
 }
-.card {
-	max-width: 100%;
-	max-height: 100%;
-	background-color: #141414;
-	border-color: white !important;
-	box-shadow: shadow !important;
-}
 .dropdown-menu {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white;
 }
 .custom-select {
 	border-color: white !important;
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 }
 .asset-owned {
 	border-color: purple !important;
 }
 .asset-limited {
-	border-color: #141414 !important;
+	border-color: #0c1a38 !important;
 }
 .modal-content {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border: 1px solid white !important;
 }
 li {
 	color: white;
 }
 div {
-	color: white
+	color: white;
+	
 }
 a {
 	color:white;
@@ -199,83 +181,82 @@ body {
 	background-size: cover;
 }
 .dropdown-menu {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white;
 }
 .custom-select {
 	border-color: white !important;
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 }
 .asset-owned {
 	border-color: purple !important;
 }
 .asset-limited {
-	border-color: #141414 !important;
+	border-color: #0c1a38 !important;
 }
 .modal-content {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border: 1px solid white !important;
 }
 body {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 }
 td {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border: 1px solid white !important;
 }
 .poly-chat-toggler {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 }
 .nav-pills .nav-link {
 	color: white !important;
+	background: transparent;
 }
 .poly-chat-container {
 	color: white !important;
 }
 th {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white !important;
 }
 .input-group-text {
-	background-color: #141414;
+	background-color: #0c1a38;
 	border-color: white !important;
 }
 .btn-white {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white !important;
 }
 .active .page-link {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white !important;
 }
 .page-link {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white !important;
 }
 .custom-select {
-	border-color: #141414 !important;
+	border-color: #0c1a38 !important;
 	background-color: white !important;
 }
 .modal-header {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-bottom-color: white !important;
 }
 .modal-footer {
 	border-color: white;
 }
 .modal-content {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border: 1px solid white !important;
 }
 .card-header {
-	border-bottom-color: white !important;
-}
-.card{
-	background-color: #141414 !important;
-
+	border-color: white !important;
+	max-width: 125%;
+	max-height: 125%;
 }
 .form-control {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	border-color: white !important;
 	color: white !important;
 }
@@ -287,36 +268,35 @@ th {
 }
 /*---------------------------------------- NAVBAR COLOR ----------------------------------------*/
  .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light {
-	background-color: #141414 !important;
+	background-color: #0c1a38 !important;
 	background-repeat: repeat-y;
 }
 .navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-dark {
-	background: #141414 !important;
+	background: #0c1a38 !important;
 	background-repeat: repeat-x !important;
 }
 .navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
-	background: #141414 !important;
+	background: #0c1a38 !important;
 }
-.sidebarCollapse{
-	outline-color: white;
-	outline-width: thin;
-	background-color: white;
 
-}
 body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 }
 /*---------------------------------------- ANIMATIONS ----------------------------------------*/
- .card {
-	color: white;
+
+.card {
+	max-height: 150%;
+	background-color: #0c1a38 !important;
+	box-shadow: white 1px 1px 10px !important;
 	animation: fadeIn linear 200ms;
 	-webkit-animation: fadeIn linear 200ms;
 	-moz-animation: fadeIn linear 200ms;
 	-o-animation: fadeIn linear 200ms;
 	-ms-animation: fadeIn linear 200ms;
 }
+
 @keyframes fadeIn {
 	0% {
 		opacity:0;
@@ -368,7 +348,7 @@ body {
 p {
 	animation-duration: 200ms;
 	animation-name: fadeIn;
-	font-family: Comic Sans MS, serif;
+	font-family: 'Comic Sans MS', Courier, monospace;
 }
 .h1 .h2 .h3 .h4 {
 	color: white;
@@ -397,11 +377,25 @@ img {
 .badge.badge-pill.badge-secondary{	
 	outline-color:rgb(255, 255, 255);
 	outline-style: solid;
+	outline-width: thin;
+	background-color: #0c1a38;
+	min-height: 125%;
+	min-width: 125%;
+	border-spacing: 1px;
+	box-shadow: white 1px 1px 10px !important;
 }
 .comment-body{
 	outline-color:rgb(255, 255, 255);
 	outline-style: solid;
-	background-color: #141414;
+	background-color: #0c1a38;
 }
-
-
+.btn .btn-link .collapsed{
+	background: transparent;
+	color: white !important;
+}
+.rounded{
+	box-shadow: white 1px 1px 10px !important;
+}
+.rounded-circle{
+	box-shadow: white 1px 1px 10px !important;
+}
