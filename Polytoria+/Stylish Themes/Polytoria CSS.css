@@ -367,14 +367,14 @@ img {
 	-ms-animation: fadeIn linear 200ms;
 }
 
-.badge.badge-soft-success{
-	outline-color: aqua;
+.badge .badge-soft-success{
+	outline-color: white;
 	outline-width: thin;
 	outline-style: solid;
-	background-color:aqua;
+	background-color:#0c1a38 !important;
 	text-decoration-color: white;
 }
-.badge.badge-pill.badge-secondary{	
+.badge .badge-pill.badge-secondary{	
 	outline-color:rgb(255, 255, 255);
 	outline-style: solid;
 	outline-width: thin;
