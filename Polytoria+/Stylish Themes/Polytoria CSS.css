@@ -15,13 +15,12 @@
 head {
 	background-color: white;
 	border-color:white;
-	box-shadow: 10px 5px 5px teal;
 	font-variant: small-caps;
 }
 .btn-primary{
 	background-color: #0c1a38 !important;
 	color: white !important;
-	border-color: white !important;
+	box-shadow: white 1px 1px 10px !important;
 }
 
 a {
@@ -150,6 +149,7 @@ body {
 .dropdown-menu {
 	background-color: #0c1a38 !important;
 	border-color: white;
+
 }
 .custom-select {
 	border-color: white !important;
@@ -183,6 +183,7 @@ body {
 .dropdown-menu {
 	background-color: #0c1a38 !important;
 	border-color: white;
+	box-shadow: white 1px 1px 10px !important;
 }
 .custom-select {
 	border-color: white !important;
@@ -193,6 +194,15 @@ body {
 }
 .asset-limited {
 	border-color: #0c1a38 !important;
+}
+.tooltip.show.bs-tooltip-bottom{
+	background-color: #0c1a38 !important;
+	box-shadow: white 1px 1px 10px !important;
+	animation: fadeIn linear 700ms;
+	-webkit-animation: fadeIn linear 700ms;
+	-moz-animation: fadeIn linear 700ms;
+	-o-animation: fadeIn linear 700ms;
+	-ms-animation: fadeIn linear 700ms;
 }
 .modal-content {
 	background-color: #0c1a38 !important;
@@ -210,7 +220,6 @@ td {
 }
 .nav-pills .nav-link {
 	color: white !important;
-	background: transparent;
 }
 .poly-chat-container {
 	color: white !important;
@@ -226,6 +235,7 @@ th {
 .btn-white {
 	background-color: #0c1a38 !important;
 	border-color: white !important;
+	box-shadow: white 1px 1px 10px !important;
 }
 .active .page-link {
 	background-color: #0c1a38 !important;
@@ -290,13 +300,20 @@ body {
 	max-height: 150%;
 	background-color: #0c1a38 !important;
 	box-shadow: white 1px 1px 10px !important;
-	animation: fadeIn linear 200ms;
-	-webkit-animation: fadeIn linear 200ms;
-	-moz-animation: fadeIn linear 200ms;
-	-o-animation: fadeIn linear 200ms;
-	-ms-animation: fadeIn linear 200ms;
+	animation: fadeIn linear 700ms;
+	-webkit-animation: fadeIn linear 700ms;
+	-moz-animation: fadeIn linear 700ms;
+	-o-animation: fadeIn linear 700ms;
+	-ms-animation: fadeIn linear 700ms;
 }
+.rounded-circle{
+	animation: fadeIn linear 700ms;
+	-webkit-animation: fadeIn linear 700ms;
+	-moz-animation: fadeIn linear 700ms;
+	-o-animation: fadeIn linear 700ms;
+	-ms-animation: fadeIn linear 700ms;
 
+}
 @keyframes fadeIn {
 	0% {
 		opacity:0;
@@ -346,7 +363,7 @@ body {
 	-ms-animation: fadeIn linear 800ms;
 }
 p {
-	animation-duration: 200ms;
+	animation-duration: 700ms;
 	animation-name: fadeIn;
 	font-family: 'Comic Sans MS', Courier, monospace;
 }
@@ -360,11 +377,11 @@ p {
 }
 img {
 	color: white;
-	animation: fadeIn linear 200ms;
-	-webkit-animation: fadeIn linear 200ms;
-	-moz-animation: fadeIn linear 200ms;
-	-o-animation: fadeIn linear 200ms;
-	-ms-animation: fadeIn linear 200ms;
+	animation: fadeIn linear 700ms;
+	-webkit-animation: fadeIn linear 700ms;
+	-moz-animation: fadeIn linear 700ms;
+	-o-animation: fadeIn linear 700ms;
+	-ms-animation: fadeIn linear 700ms;
 }
 
 .badge .badge-soft-success{
@@ -373,25 +390,50 @@ img {
 	outline-style: solid;
 	background-color:#0c1a38 !important;
 	text-decoration-color: white;
+
 }
-.badge .badge-pill.badge-secondary{	
-	outline-color:rgb(255, 255, 255);
-	outline-style: solid;
-	outline-width: thin;
+.badge.badge-pill.badge-secondary{
+	background-position:top;
+	height: 20px;
+	width: 20px;
 	background-color: #0c1a38;
-	min-height: 125%;
-	min-width: 125%;
 	border-spacing: 1px;
-	box-shadow: white 1px 1px 10px !important;
+	box-shadow: white .5px .5px 10px !important;
+	animation: fadeIn linear 700ms;
+	-webkit-animation: fadeIn linear 700ms;
+	-moz-animation: fadeIn linear 700ms;
+	-o-animation: fadeIn linear 700ms;
+	-ms-animation: fadeIn linear 700ms;
+}
+.badge.badge-pill.badge-danger{
+	box-shadow: white 0px 0px 10px !important;
+	animation: fadeIn linear 1000ms;
+	-webkit-animation: fadeIn linear 1000ms;
+	-moz-animation: fadeIn linear 1000ms;
+	-o-animation: fadeIn linear 1000ms;
+	-ms-animation: fadeIn linear 1000ms;
+	background-color: #0c1a38;
+}
+.badge.badge-pill.badge-success{	
+	box-shadow: white 0px 0px 10px !important;
+	animation: fadeIn linear 700ms;
+	-webkit-animation: fadeIn linear 700ms;
+	-moz-animation: fadeIn linear 700ms;
+	-o-animation: fadeIn linear 700ms;
+	-ms-animation: fadeIn linear 700ms;
+	background-color: #0c1a38;
 }
 .comment-body{
 	outline-color:rgb(255, 255, 255);
+	background-color:#0c1a38 !important;
+	outline-width: thin;
 	outline-style: solid;
-	background-color: #0c1a38;
 }
-.btn .btn-link .collapsed{
+.btn.btn-link .collapsed{
 	background: transparent;
 	color: white !important;
+	box-shadow: white 1px 1px 10px !important;
+
 }
 .rounded{
 	box-shadow: white 1px 1px 10px !important;
