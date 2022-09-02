@@ -10,7 +10,7 @@
 .poly-alert{
 	background-color: #0c1a38 !important;
 	color: white !important;
-	border-color: white !important;
+	box-shadow: white 1px 1px 10px !important;
 }
 head {
 	background-color: white;
@@ -31,11 +31,14 @@ a {
 	background: #0c1a38 !important;
 	border-color: white !important;
 }
+.alert.poly-alert.text-white{
+	box-shadow: white 1px 1px 10px !important;
 
+}
 .alert .alert-primary .poly-alert {
 	color: white !important;
 	background: #0c1a38 !important;
-	border-color: white;
+	box-shadow: white 1px 1px 10px !important;
 }
 .alert{
 	color: white !important;
