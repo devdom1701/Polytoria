@@ -14,8 +14,7 @@
 }
 .sidebarCollapse{
 	background-color: #141414 !important;
-	color:#141414 !important;
-	box-shadow: white 1px 1px 10px !important;
+	border-right-color: white;
 }
 .sidebar{
 	background-color: #141414 !important;
@@ -32,7 +31,15 @@ head {
 	color: white !important;
 	box-shadow: white 1px 1px 10px !important;
 }
-
+.btn.btn-danger{
+	background-color: #720000ad !important;
+	color: white !important;
+	box-shadow: white 1px 1px 10px !important;
+}
+.btn.btn-success{
+	color: white !important;
+	box-shadow: white 1px 1px 10px !important;
+}
 a {
 	font-style: oblique;
 	color: white;
@@ -56,10 +63,16 @@ a {
 head {
 	color: white;
 }
-
+td{
+	border-bottom: white;
+}
 .card-body {
 	background-color: #141414 !important;
-	
+	animation: fadeIn linear 1200ms;
+	-webkit-animation: fadeIn linear 1200ms;
+	-moz-animation: fadeIn linear 1200ms;
+	-o-animation: fadeIn linear 1200ms;
+	-ms-animation: fadeIn linear 1200ms;
 }
 H1 {
 	font-style: oblique;
@@ -109,7 +122,8 @@ body {
 	border:white;
 }
 .btn-link{
-	color:white;
+	font-style: italic;
+	color:rgba(44, 142, 253, 0.692) !important;
 	font-family: 'Comic Sans MS', Courier, monospace;
 	text-decoration-color: white;
 }
@@ -165,9 +179,6 @@ body {
 	border-color: white !important;
 	background-color: #141414 !important;
 }
-.asset-owned {
-	border-color: purple !important;
-}
 .asset-limited {
 	border-color: #141414 !important;
 }
@@ -200,7 +211,11 @@ body {
 	background-color: #141414 !important;
 }
 .asset-owned {
-	border-color: purple !important;
+	border-color:#006effc2 !important;
+}
+.asset-owned-triangle{
+	color:#007206ad;
+	background-color: 007206ad;
 }
 .asset-limited {
 	border-color: #141414 !important;
@@ -208,11 +223,11 @@ body {
 .tooltip.show.bs-tooltip-bottom{
 	background-color: #141414 !important;
 	box-shadow: white 1px 1px 10px !important;
-	animation: fadeIn linear 700ms;
-	-webkit-animation: fadeIn linear 700ms;
-	-moz-animation: fadeIn linear 700ms;
-	-o-animation: fadeIn linear 700ms;
-	-ms-animation: fadeIn linear 700ms;
+	animation: fadeIn linear 1200ms;
+	-webkit-animation: fadeIn linear 1200ms;
+	-moz-animation: fadeIn linear 1200ms;
+	-o-animation: fadeIn linear 1200ms;
+	-ms-animation: fadeIn linear 1200ms;
 }
 .modal-content {
 	background-color: #141414 !important;
@@ -221,10 +236,7 @@ body {
 body {
 	background-color: #141414 !important;
 }
-td {
-	background-color: #141414 !important;
-	border: 1px solid white !important;
-}
+
 .poly-chat-toggler {
 	background-color: #141414 !important;
 }
@@ -271,7 +283,7 @@ th {
 	border: 1px solid white !important;
 }
 .card-header {
-	border-color: white !important;
+	border-color: #141414 !important;
 	max-width: 125%;
 	max-height: 125%;
 }
@@ -281,7 +293,7 @@ th {
 	color: white !important;
 }
 .list-group-item, .border-top {
-	border-bottom-color: white !important;
+	border-bottom-color:#141414 !important;
 }
 .form-control-flush {
 	border: none !important
@@ -307,21 +319,20 @@ body {
 /*---------------------------------------- ANIMATIONS ----------------------------------------*/
 
 .card {
-	max-height: 150%;
 	background-color: #141414 !important;
 	box-shadow: white 1px 1px 10px !important;
-	animation: fadeIn linear 700ms;
-	-webkit-animation: fadeIn linear 700ms;
-	-moz-animation: fadeIn linear 700ms;
-	-o-animation: fadeIn linear 700ms;
-	-ms-animation: fadeIn linear 700ms;
+	animation: fadeIn linear 1200ms;
+	-webkit-animation: fadeIn linear 1200ms;
+	-moz-animation: fadeIn linear 1200ms;
+	-o-animation: fadeIn linear 1200ms;
+	-ms-animation: fadeIn linear 1200ms;
 }
 .rounded-circle{
-	animation: fadeIn linear 700ms;
-	-webkit-animation: fadeIn linear 700ms;
-	-moz-animation: fadeIn linear 700ms;
-	-o-animation: fadeIn linear 700ms;
-	-ms-animation: fadeIn linear 700ms;
+	animation: fadeIn linear 1200ms;
+	-webkit-animation: fadeIn linear 1200ms;
+	-moz-animation: fadeIn linear 1200ms;
+	-o-animation: fadeIn linear 1200ms;
+	-ms-animation: fadeIn linear 1200ms;
 
 }
 @keyframes fadeIn {
@@ -373,7 +384,7 @@ body {
 	-ms-animation: fadeIn linear 800ms;
 }
 p {
-	animation-duration: 700ms;
+	animation-duration: 1200ms;
 	animation-name: fadeIn;
 	font-family: 'Comic Sans MS', Courier, monospace;
 }
@@ -387,11 +398,11 @@ p {
 }
 img {
 	color: white;
-	animation: fadeIn linear 700ms;
-	-webkit-animation: fadeIn linear 700ms;
-	-moz-animation: fadeIn linear 700ms;
-	-o-animation: fadeIn linear 700ms;
-	-ms-animation: fadeIn linear 700ms;
+	animation: fadeIn linear 1200ms;
+	-webkit-animation: fadeIn linear 1200ms;
+	-moz-animation: fadeIn linear 1200ms;
+	-o-animation: fadeIn linear 1200ms;
+	-ms-animation: fadeIn linear 1200ms;
 }
 
 .badge .badge-soft-success{
@@ -400,6 +411,7 @@ img {
 	outline-style: solid;
 	background-color:#141414 !important;
 	text-decoration-color: white;
+	background-color: transparent;
 
 }
 .badge.badge-pill.badge-secondary{
@@ -409,11 +421,11 @@ img {
 	background-color: #141414;
 	border-spacing: 1px;
 	box-shadow: white .5px .5px 10px !important;
-	animation: fadeIn linear 700ms;
-	-webkit-animation: fadeIn linear 700ms;
-	-moz-animation: fadeIn linear 700ms;
-	-o-animation: fadeIn linear 700ms;
-	-ms-animation: fadeIn linear 700ms;
+	animation: fadeIn linear 1200ms;
+	-webkit-animation: fadeIn linear 1200ms;
+	-moz-animation: fadeIn linear 1200ms;
+	-o-animation: fadeIn linear 1200ms;
+	-ms-animation: fadeIn linear 1200ms;
 }
 .badge.badge-pill.badge-danger{
 	box-shadow: white 0px 0px 10px !important;
@@ -424,26 +436,30 @@ img {
 	-ms-animation: fadeIn linear 1000ms;
 	background-color: #141414;
 }
+.fe-star{
+	color:orange;
+}
 .badge.badge-pill.badge-success{	
 	box-shadow: white 0px 0px 10px !important;
-	animation: fadeIn linear 700ms;
-	-webkit-animation: fadeIn linear 700ms;
-	-moz-animation: fadeIn linear 700ms;
-	-o-animation: fadeIn linear 700ms;
-	-ms-animation: fadeIn linear 700ms;
-	background-color: #141414;
+	animation: fadeIn linear 1200ms;
+	-webkit-animation: fadeIn linear 1200ms;
+	-moz-animation: fadeIn linear 1200ms;
+	-o-animation: fadeIn linear 1200ms;
+	-ms-animation: fadeIn linear 1200ms;
+	background-color: transparent;
+}
+.btn.btn-secondary{
+	background-color:#141414 !important;
+	box-shadow: white 1px 1px 10px !important;
 }
 .comment-body{
-	outline-color:rgb(255, 255, 255);
-	background-color:#141414 !important;
 	outline-width: thin;
 	outline-style: solid;
 }
-.btn.btn-link .collapsed{
+.btn.collapsed{
 	background: transparent;
 	color: white !important;
 	box-shadow: white 1px 1px 10px !important;
-
 }
 .rounded{
 	box-shadow: white 1px 1px 10px !important;
