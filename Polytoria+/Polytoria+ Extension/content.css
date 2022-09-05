@@ -1,5 +1,6 @@
 /*---------------------------------------- BASIC FONT/TEXT COLORS ----------------------------------------*/
 .alert {
+	height: 50px;
 	background-color: white !important;
 	color: #141414 !important;
 }
@@ -26,6 +27,7 @@ head {
 	border-color:white;
 	font-variant: small-caps;
 }
+
 .btn-primary{
 	background-color: #141414 !important;
 	color: white !important;
@@ -63,8 +65,8 @@ a {
 head {
 	color: white;
 }
-td{
-	border-bottom: white;
+.td{
+	border: white;
 }
 .card-body {
 	background-color: #141414 !important;
@@ -453,6 +455,7 @@ img {
 	box-shadow: white 1px 1px 10px !important;
 }
 .comment-body{
+	background-color: #141414 !important;
 	outline-width: thin;
 	outline-style: solid;
 }
@@ -482,10 +485,7 @@ img {
 	background-color:#141414 !important;
 	box-shadow: white 1px 1px 10px !important;
 }
-.comment-body{
-	outline-width: thin;
-	outline-style: solid;
-}
+
 .btn.collapsed{
 	background: transparent;
 	color: white !important;
