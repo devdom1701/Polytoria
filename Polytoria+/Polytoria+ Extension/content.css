@@ -65,9 +65,10 @@ a {
 head {
 	color: white;
 }
-.td{
-	border: white;
+.border-top{
+color: white !important;
 }
+
 .card-body {
 	background-color: #141414 !important;
 	animation: fadeIn linear 1200ms;
@@ -458,10 +459,6 @@ img {
 	background-color: #141414 !important;
 	outline-width: thin;
 	outline-style: solid;
-}
-.td{
-	border-bottom-color:white !important;
-	border-width: 1px;
 }
 .btn.collapsed{
 	background: transparent;
