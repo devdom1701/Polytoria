@@ -61,7 +61,9 @@ a {
 	background: #141414 !important;
 	border-color: white;
 }
-
+td{
+border-color: white !important;
+}
 head {
 	color: white;
 }
@@ -286,7 +288,7 @@ th {
 	border: 1px solid white !important;
 }
 .card-header {
-	border-color: #141414 !important;
+	border-color: #ffffff !important;
 	max-width: 125%;
 	max-height: 125%;
 }
