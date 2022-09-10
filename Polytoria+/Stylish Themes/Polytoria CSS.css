@@ -241,7 +241,6 @@ body {
 body {
 	background-color: #141414 !important;
 }
-
 .poly-chat-toggler {
 	background-color: #141414 !important;
 }
@@ -315,14 +314,12 @@ th {
 .navbar.navbar-expand-md.navbar-light.d-none.d-md-flex {
 	background: #141414 !important;
 }
-
 body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 }
 /*---------------------------------------- ANIMATIONS ----------------------------------------*/
-
 .card {
 	background-color: #141414 !important;
 	box-shadow: white 1px 1px 10px !important;
@@ -409,7 +406,6 @@ img {
 	-o-animation: fadeIn linear 1200ms;
 	-ms-animation: fadeIn linear 1200ms;
 }
-
 .badge .badge-soft-success{
 	outline-color: white;
 	outline-width: thin;
@@ -484,7 +480,6 @@ img {
 	background-color:#141414 !important;
 	box-shadow: white 1px 1px 10px !important;
 }
-
 .btn.collapsed{
 	background: transparent;
 	color: white !important;
