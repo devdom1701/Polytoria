@@ -1,18 +1,74 @@
 {
-    "manifest_version": 2,
     "name": "Polytoria+",
-    "version": "0.12.6",
-    "description": "a",
     "author": "devdom",
+    "description": "created by devdom",
+    "version": "v2ex1",
     "permissions": [
-      "storage"
+        "storage"
     ],
     "content_scripts": [
+
         {
-          "matches": [
-            "https://polytoria.com"
-          ],
-          "js": ["content.js"]
+            "matches": ["https://*.polytoria.com/games/*"],
+            "js": ["./scripts/game/game_page.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/games/"],
+            "js": ["./scripts/game/main_game_page.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/shop/*"],
+            "js": ["./scripts/catalog/catalog_inspector.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/home"],
+            "js": ["./scripts/home/home_page.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/shop/"],
+            "js": ["./scripts/catalog/catalog_page.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/create/*"],
+            "js": ["./scripts/create/create_page.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/user/*"],
+            "js": ["./scripts/profile/profile_page.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/my/settings*"],
+            "js": ["./scripts/settings/settings_page.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/forum/post/*"],
+            "js": ["./scripts/forum/forumpost_page.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/polyplus/settings/"],
+            "js": ["./scripts/settings/polyplus_settings.js"]
+        },
+
+        {
+            "matches": ["https://polytoria.com/*"],
+            "js": ["./scripts/theme/themeapplier.js"]
+        },
+
+        {
+            "matches": ["https://*.polytoria.com/guilds/create"],
+            "js": ["./scripts/guild/guildpreview.js"]
         }
-      ]
-  }
+    ],
+    "manifest_version": 3,
+    "icons": {
+       "128": "PolyPlus.png" }
+}
