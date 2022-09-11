@@ -438,7 +438,7 @@ img {
 	background-color: #141414;
 }
 .fe-star{
-	color:orange;
+	color:orange !important;
 }
 .badge.badge-pill.badge-success{	
 	box-shadow: white 0px 0px 10px !important;
