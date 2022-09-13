@@ -11656,7 +11656,91 @@
         transform:translateX(0%)
         }
         }
-    
+        
+        #pack-contents .row:nth-child(1) {
+        animation-delay:50ms
+        }
+        
+        #pack-contents .row:nth-child(2) {
+        animation-delay:100ms
+        }
+        
+        #pack-contents .row:nth-child(3) {
+        animation-delay:150ms
+        }
+        
+        #pack-contents .row:nth-child(4) {
+        animation-delay:200ms
+        }
+        
+        #pack-contents .row:nth-child(5) {
+        animation-delay:250ms
+        }
+        
+        #pack-contents .row:nth-child(6) {
+        animation-delay:300ms
+        }
+        
+        #pack-contents .row:nth-child(7) {
+        animation-delay:350ms
+        }
+        
+        #pack-contents .row:nth-child(8) {
+        animation-delay:400ms
+        }
+        
+        #pack-contents .row:nth-child(9) {
+        animation-delay:450ms
+        }
+        
+        #pack-contents .row:nth-child(10) {
+        animation-delay:500ms
+        }
+        
+        #pack-contents .row:nth-child(11) {
+        animation-delay:550ms
+        }
+        
+        #pack-contents .row:nth-child(12) {
+        animation-delay:600ms
+        }
+        
+        #pack-contents .row:nth-child(13) {
+        animation-delay:650ms
+        }
+        
+        #pack-contents .row:nth-child(14) {
+        animation-delay:700ms
+        }
+        
+        #pack-contents .row:nth-child(15) {
+        animation-delay:750ms
+        }
+        
+        #pack-contents .row:nth-child(16) {
+        animation-delay:800ms
+        }
+        
+        #pack-contents .row:nth-child(17) {
+        animation-delay:850ms
+        }
+        
+        #pack-contents .row:nth-child(18) {
+        animation-delay:900ms
+        }
+        
+        #pack-contents .row:nth-child(19) {
+        animation-delay:950ms
+        }
+        
+        #pack-contents .row:nth-child(20) {
+        animation-delay:1000ms
+        }
+        
+        .card-body.p-3 {
+        overflow-x:hidden
+        }
+        
         .card-body.p-3 .row.mb-4 {
         animation:trComeLeft .5s cubic-bezier(0.16,1,0.3,1);
         animation-fill-mode:forwards;
