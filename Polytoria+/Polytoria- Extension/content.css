@@ -1,14 +1,16 @@
 .alert {
     background:#141414!important;
-    background-color: black !important;
+    background-color:#141414!important;
     border-color:#fff;
     color:#141414!important;
+    color:#fff!important;
     height:50px
     }
     
     .alert .alert-primary .poly-alert {
-    background-color:#141414!important;
+    background:#141414!important;
     border-color:#fff;
+    color:#fff!important
     }
     
     .asset-limited {
@@ -77,7 +79,7 @@
     .custom-select {
     background-color:#141414!important;
     background-color:#141414!important;
-    background-color:#141414!important;
+    background-color:#fff!important;
     border-color:#fff!important;
     border-color:#fff!important;
     border-color:#141414!important
@@ -257,8 +259,8 @@
     }
     
     head {
-    background-color:#141414;
-    background-color:#141414;
+    background-color:#fff;
+    background-color:#fff;
     border:#fff;
     border-color:#fff;
     color:#fff;
@@ -486,7 +488,7 @@
     
     .poly-chat-container {
     -ms-overflow-style:none;
-    background-color:#141414;
+    background-color:#fff;
     bottom:-300px;
     box-shadow:0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
     color:#000;
@@ -702,7 +704,7 @@
     }
     
     .text-divider span {
-    background-color:#141414;
+    background-color:#fff;
     padding:1em
     }
     
@@ -962,7 +964,7 @@
     
     .poly-chat-input .form-control {
     background-clip:padding-box;
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #d2ddec;
     border-radius:.375rem;
     color:#141414;
@@ -978,7 +980,7 @@
     
     .poly-chat-messages .card {
     background-clip:border-box;
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #edf2f9;
     border-color:#edf2f9;
     border-radius:.5rem;
@@ -2470,7 +2472,7 @@
     }
     
     .table-secondary,.table-secondary>td,.table-secondary>th,.table-white,.table-white>td,.table-white>th {
-    background-color:#141414
+    background-color:#fff
     }
     
     .table-sm td,.table-sm th {
@@ -2551,7 +2553,7 @@
     
     .form-control {
     background-clip:padding-box;
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #141414;
     border-radius:.375rem;
     color:#fff;
@@ -2737,12 +2739,12 @@
     }
     
     .form-control:disabled,.form-control[readonly] {
-    background-color:#141414;
+    background-color:#fff;
     opacity:1
     }
     
     .form-control:focus {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#2c7be5;
     box-shadow:transparent;
     color:#fff;
@@ -2831,7 +2833,7 @@
     }
     
     select.form-control:focus::-ms-value {
-    background-color:#141414;
+    background-color:#fff;
     color:#fff
     }
     
@@ -3222,7 +3224,7 @@
     }
     
     .btn-secondary,.btn-secondary.disabled,.btn-secondary:disabled,.btn-outline-secondary:hover,.btn-outline-secondary:not(:disabled):not(.disabled).active,.btn-outline-secondary:not(:disabled):not(.disabled):active,.show>.btn-outline-secondary.dropdown-toggle {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff;
     color:#fff
     }
@@ -3309,7 +3311,7 @@
     }
     
     .btn-white,.btn-white.disabled,.btn-white:disabled,.btn-outline-white:hover,.btn-outline-white:not(:disabled):not(.disabled).active,.btn-outline-white:not(:disabled):not(.disabled):active,.show>.btn-outline-white.dropdown-toggle {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff;
     color:#283e59
     }
@@ -3627,7 +3629,7 @@
     }
     
     .custom-control-input:disabled~.custom-control-label::before,.custom-control-input[disabled]~.custom-control-label::before {
-    background-color:#141414
+    background-color:#fff
     }
     
     .custom-control-input:focus:not(:checked)~.custom-control-label::before {
@@ -3887,7 +3889,7 @@
     
     .input-group-text {
     align-items:center;
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #141414;
     border-radius:.375rem;
     color:#fff;
@@ -3949,7 +3951,7 @@
     }
     
     .custom-file-input:disabled~.custom-file-label,.custom-file-input[disabled]~.custom-file-label {
-    background-color:#141414
+    background-color:#fff
     }
     
     .custom-file-input:focus~.custom-file-label {
@@ -3966,7 +3968,7 @@
     }
     
     .custom-file-label {
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #141414;
     border-radius:.375rem;
     color:#fff;
@@ -3982,7 +3984,7 @@
     }
     
     .custom-file-label::after {
-    background-color:#141414;
+    background-color:#fff;
     border-left:inherit;
     border-radius:0 .375rem .375rem 0;
     bottom:0;
@@ -4088,7 +4090,7 @@
     }
     
     .custom-select:focus::-ms-value {
-    background-color:#141414;
+    background-color:#fff;
     color:#fff
     }
     
@@ -4776,7 +4778,7 @@
     }
     
     .badge-secondary {
-    background-color:#141414;
+    background-color:#fff;
     color:#fff
     }
     
@@ -4791,7 +4793,7 @@
     }
     
     .badge-white {
-    background-color:#141414;
+    background-color:#fff;
     color:#283e59
     }
     
@@ -5010,7 +5012,7 @@
     }
     
     .alert-secondary {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff;
     color:#425773
     }
@@ -5052,7 +5054,7 @@
     }
     
     .alert-white {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff;
     color:#8d97a3
     }
@@ -5519,7 +5521,7 @@
     }
     
     .list-group-item-white {
-    background-color:#141414;
+    background-color:#fff;
     color:#8d97a3
     }
     
@@ -6410,7 +6412,7 @@
     }
     
     .table td,.table th {
-    background-color:#141414!important
+    background-color:#fff!important
     }
     
     .table-bordered td,.table-bordered th {
@@ -6515,6 +6517,15 @@
     .alert-primary {
     background-color:#2c7be5;
     border-color:#2c7be5;
+    color:#fff
+    }
+    
+    .alert-primary .alert-link,.alert-primary .close,.alert-secondary .alert-link,.alert-secondary .close,.alert-success .alert-link,.alert-success .close,.alert-info .alert-link,.alert-info .close,.alert-danger .alert-link,.alert-danger .close,.alert-light .alert-link,.alert-light .close,.alert-dark .alert-link,.alert-dark .close {
+    color:#fff
+    }
+    
+    .alert-primary .alert-link,.alert-secondary .alert-link,.alert-success .alert-link,.alert-info .alert-link,.alert-danger .alert-link,.alert-light .alert-link,.alert-dark .alert-link {
+    color:#e6e6e6
     }
     
     .alert-primary hr {
@@ -6522,6 +6533,7 @@
     }
     
     .alert-secondary {
+    background-color:#fff;
     border-color:#fff;
     color:#fff
     }
@@ -6559,7 +6571,7 @@
     }
     
     .alert-white {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff;
     color:#283e59
     }
@@ -6722,7 +6734,7 @@
     }
     
     .btn-group-toggle .btn-white:not(:disabled):not(.disabled).active,.btn-group-toggle .btn-white:not(:disabled):not(.disabled):active {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#2c7be5;
     color:#2c7be5
     }
@@ -7073,7 +7085,7 @@
     }
     
     .custom-switch .custom-control-input:checked~.custom-control-label::after {
-    background-color:#141414;
+    background-color:#fff;
     transform:translateX(1.5rem)
     }
     
@@ -7411,7 +7423,7 @@
     }
     
     .list-group-item-primary.list-group-item-action.active,.list-group-item-secondary.list-group-item-action.active,.list-group-item-success.list-group-item-action.active,.list-group-item-info.list-group-item-action.active,.list-group-item-danger.list-group-item-action.active,.list-group-item-light.list-group-item-action.active,.list-group-item-dark.list-group-item-action.active {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff;
     color:#fff
     }
@@ -7422,7 +7434,7 @@
     }
     
     .list-group-item-secondary {
-    background-color:#141414;
+    background-color:#fff;
     color:#fff
     }
     
@@ -7458,7 +7470,7 @@
     }
     
     .list-group-item-white {
-    background-color:#141414;
+    background-color:#fff;
     color:#283e59
     }
     
@@ -7609,7 +7621,7 @@
     }
     
     .navbar-dark {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff
     }
     
@@ -9502,7 +9514,7 @@
     }
     
     .comment-body {
-    background-color:#141414;
+    background-color:#fff;
     border-radius:.5rem;
     display:inline-block;
     padding:1rem 1.25rem
@@ -10374,7 +10386,7 @@
     }
     
     .dz-message {
-    background-color:#141414;
+    background-color:#fff;
     border:1px dashed #141414;
     border-radius:.375rem;
     color:#fff;
@@ -10414,7 +10426,7 @@
     }
     
     .flatpickr-calendar {
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #141414;
     box-shadow:none;
     color:#fff
@@ -10482,7 +10494,7 @@
     
     .ql-editor {
     background-clip:padding-box;
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #141414;
     border-radius:.375rem;
     color:#fff;
@@ -10496,7 +10508,7 @@
     }
     
     .ql-toolbar {
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #141414;
     border-radius:.375rem .375rem 0 0;
     color:#fff;
@@ -10540,7 +10552,7 @@
     }
     
     .ql-editor:focus {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#2c7be5;
     box-shadow:transparent;
     color:#fff;
@@ -10775,7 +10787,7 @@
     }
     
     .ql-tooltip .ql-remove::before {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff;
     border-color:#e3ebf6;
     color:#283e59;
@@ -10783,7 +10795,7 @@
     }
     
     .ql-tooltip .ql-remove::before.disabled,.ql-tooltip .ql-remove::before:disabled {
-    background-color:#141414;
+    background-color:#fff;
     border-color:#fff;
     color:#283e59
     }
@@ -10919,7 +10931,7 @@
     }
     
     .select2-search--dropdown .select2-search__field {
-    background-color:#141414;
+    background-color:#fff;
     border:1px solid #141414;
     border-radius:.25rem;
     color:#fff;
