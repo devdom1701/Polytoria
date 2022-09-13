@@ -13,8 +13,7 @@
   ],
   "content_scripts": [{
     "matches":["https://polytoria.com/*"],
-    "css": ["content.css"],
-    "js":["script.js"]
+    "css": ["content.css"]
   }],
   "manifest_version": 3,
     "icons": {
