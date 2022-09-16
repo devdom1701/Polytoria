@@ -78,11 +78,7 @@ max-width:125%
 
 .custom-select {
 background-color:#141414!important;
-background-color:#141414!important;
-background-color:#fff!important;
 border-color:#fff!important;
-border-color:#fff!important;
-border-color:#141414!important
 }
 
 .dropdown-menu {
@@ -113,11 +109,7 @@ border-bottom-color:#141414!important
 
 .modal-content {
 background-color:#141414!important;
-background-color:#141414!important;
-background-color:#141414!important;
 border:1px solid #fff!important;
-border:1px solid #fff!important;
-border:1px solid #fff!important
 }
 
 .modal-footer {
@@ -151,20 +143,12 @@ color:#fff!important
 
 .poly-chat-container {
 background-color:#141414!important;
-background-color:#141414!important;
 color:#fff!important;
-color:#fff!important;
-color:#fff!important
 }
 
 .poly-chat-toggler {
 background-color:#141414!important;
-background-color:#141414!important;
-background-color:#141414!important;
 border-color:#fff!important;
-border-color:#fff!important;
-box-shadow:#fff!important;
-box-shadow:#fff!important
 }
 
 .rounded-circle {
@@ -205,21 +189,22 @@ background-color:#141414!important;
 box-shadow:#fff 1px 1px 10px!important
 }
 
+.pt-4.my-md-5.pt-md-5.border-top{
+    color: white !important;
+    border: 1px 1px 1px;
+}
+
 a {
 background:#141414!important;
 border-color:#fff!important;
-color:#fff;
-color:#fff!important;
-color:#fff;
-color:#fff;
-font-style:oblique;
+color:#fff  !important;
 font-style:oblique;
 font-variant:small-caps;
 font-weight:1000
 }
 
 body {
-background: #141414;
+background: #141414 !important;
 background-attachment:fixed;
 background-position:center;
 background-size:cover;
@@ -243,10 +228,8 @@ font-variant:small-caps
 
 head {
 background-color:#fff;
-background-color:#fff;
 border:#fff;
 border-color:#fff;
-color:#fff;
 color:#fff;
 font-variant:small-caps
 }
@@ -327,6 +310,11 @@ opacity:0
 100% {
 opacity:1
 }
+}
+
+hr{
+color: white !important;
+border: 1px 1px 1px;
 }
 
 .badge .badge-soft-success {
