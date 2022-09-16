@@ -392,17 +392,12 @@ color:#fff!important
 
 .btn.btn-secondary {
 background-color:#141414!important;
-background-color:#141414!important;
-box-shadow:#fff 1px 1px 10px!important;
 box-shadow:#fff 1px 1px 10px!important
 }
 
 .btn.collapsed {
 background:transparent;
-background:transparent;
 box-shadow:#fff 1px 1px 10px!important;
-box-shadow:#fff 1px 1px 10px!important;
-color:#fff!important;
 color:#fff!important
 }
 
@@ -656,7 +651,6 @@ z-index:-1
 }
 
 .rounded {
-box-shadow:#fff 1px 1px 10px!important;
 box-shadow:#fff 1px 1px 10px!important
 }
 
@@ -667,8 +661,6 @@ box-shadow:#fff 1px 1px 10px!important
 -webkit-animation:fadeIn linear 1200ms;
 animation:fadeIn linear 1200ms;
 background-color:transparent;
-box-shadow:#fff 1px 1px 10px!important;
-box-shadow:#fff 0 0 10px!important;
 box-shadow:#fff 1px 1px 10px!important
 }
 
