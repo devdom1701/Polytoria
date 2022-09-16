@@ -195,13 +195,6 @@ background-image:url(text-reset);
 background-image:url(text-reset)
 }
 
-.th {
-background-color:#141414!important;
-background-color:#141414!important;
-border-color:#fff!important;
-border-color:#fff!important
-}
-
 .tooltip.show.bs-tooltip-bottom,.card {
 -moz-animation:fadeIn linear 1200ms;
 -ms-animation:fadeIn linear 1200ms;
@@ -2323,6 +2316,16 @@ max-width:16.66667%
 color:#fff;
 margin-bottom:1.5rem;
 width:100%
+}
+
+.main-content{
+    border: 1px 1px 1px;
+    border-color: white !important;
+}
+
+hr{
+    border: 1px 1px 1px;
+    border-color: white !important;
 }
 
 .table .thead-dark th {
