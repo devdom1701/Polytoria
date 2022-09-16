@@ -12,6 +12,10 @@ background:#141414!important;
 border-color:#fff;
 color:#fff!important
 }
+.card{
+    border-color: white !important;
+    border: 1px 1px 1px;
+}
 
 .asset-limited {
 border-color:#141414!important;
