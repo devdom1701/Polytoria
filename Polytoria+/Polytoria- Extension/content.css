@@ -219,20 +219,10 @@ font-weight:1000
 }
 
 body {
-background:#141414;
-background:#141414;
+background: #141414;
 background-attachment:fixed;
-background-attachment:fixed;
-background-color:#141414!important;
-background-position:center;
-background-position:center;
-background-position:center;
 background-position:center;
 background-size:cover;
-background-size:cover;
-color:#fff;
-color:#fff;
-max-width:100%;
 max-width:100%
 }
 
@@ -4307,6 +4297,16 @@ color:#95aac9
 
 .nav-tabs .nav-link:focus,.nav-tabs .nav-link:hover {
 border-color:transparent
+}
+
+.navbar.navbar-vertical.fixed-left.navbar-expand-md.navbar-light{
+    border-color: white  !important;
+    border: 1px 1px 1px;
+}
+
+.navbar.navbar-expand-md.navbar-light.d-none.d-md-flex{
+    border-color: white  !important;
+    border: 1px 1px 1px;
 }
 
 .navbar {
